@@ -1,0 +1,21 @@
+/* setting preffered default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    color: red;
+}
+
+/* Main */
+main {
+    color: green;
+}
+
+/* Footer */
+footer {
+    color: blue;
+}
