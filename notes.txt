@@ -1,0 +1,12 @@
+Last commit details: 1a5606333c43aac9254c9a59cacc2c701fd59772
+goals:
+• Add the right fonts for body styles 
+• Create logo 
+• Add logo to Header
+• Create Nav section, including styling for it (additional: make header fixed, consider dropdown feature for smaller screen sizes)
+• Add background image for home page, including styling for it
+• Add content to home page
+• Style the home page content
+• Clean up code, and check for any errors
+• Consider accessibilty requirements, and make any changes necessary 
+• Add Favicon 
