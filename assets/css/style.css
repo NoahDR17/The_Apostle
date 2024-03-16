@@ -31,6 +31,7 @@ header {
     font-size: 32px;
     text-decoration: none;
     font-weight: 750;
+    color: white;
 
 }
 
@@ -39,15 +40,51 @@ header {
     font-weight: 500;
     text-decoration: none;
     margin-left: 40px;
+    color: white;
+
 }
 /* Main */
 main {
     color: green;
     /* main takes up surplus space whcih pushes footer down */
     flex: 1 0 auto;
-    margin-top: 50px;
+}
+#home {
+    width: 100%;
+    height: 95vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.20)), url(../media/hero.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#welcome { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 90vh;   
+}
+#welcome h1 {
+    color: #FFAFDA;
+    font-size: 480%;
+    font-weight: 700;
+    font-family:'Times New Roman', Times, serif;
 }
 
+#p1{
+    font-size: 125%;
+    color: white;
+    letter-spacing: 5px;
+    font-family:'Courier New', Courier, monospace;
+    margin-bottom: 15px;
+}
+#p2 {
+    margin-top: 10px;
+    font-size: 125%;
+    color: white;
+    letter-spacing: 2px;
+    font-family:'Courier New', Courier, monospace;
+}
 /* Footer */
 footer {
     color: blue;
