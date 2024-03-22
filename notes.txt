@@ -10,3 +10,17 @@ goals:
 • Clean up code, and check for any errors
 • Consider accessibilty requirements, and make any changes necessary 
 • Add Favicon 
+Last commit details: 901a2d2a588ed473f2f283350a971582bd959ef2
+Notes:
+Have now finished the navbar, landing page, and about us page, there is more i can still do to improve
+the structure and aesthetic of the about us page, which i may come to at a later date.
+i am beginning to notice/anticipate an issue that may come up when it comes time to adjust the structure
+of the webpage based on the device being used to see it. 
+i may have styled most of the elements in such a way that when it comes time to tweak and shift things
+to better accomodate a smaller or larger screen size i may have alot of extra work i could have avoided earlier
+on by being more oraganised and planned out with my positioning.
+Goals: 
+• I still need to add the correct fonts
+• Add favicon
+• Consider accessibilty requirements, and make any changes necessary 
+• Work on accomodations pages (attempt to make styling simple to change for different screen sizes)
