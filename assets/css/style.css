@@ -8,25 +8,28 @@
     padding: 0;
     font-family: 'lato', sans-serif;
 }
+
 /* Body */
 body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
 }
+
 /* Header */
-header {
+.navbar {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     z-index: 100;
     padding: 15px;
     padding-right: 40px;
 }
+
 .logo {
     font-size: 32px;
     text-decoration: none;
@@ -43,12 +46,15 @@ header {
     color: white;
 
 }
+
 /* Main */
 main {
     color: green;
     /* main takes up surplus space whcih pushes footer down */
     flex: 1 0 auto;
 }
+
+/* Home Section */
 #home {
     width: 100%;
     height: 95vh;
@@ -56,35 +62,76 @@ main {
     background-size: cover;
     background-position: center;
 }
-#welcome { 
+
+#welcome {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100vw;
-    height: 90vh;   
+    height: 90vh;
 }
+
 #welcome h1 {
     color: #FFAFDA;
     font-size: 480%;
     font-weight: 700;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-#p1{
+#p1 {
     font-size: 125%;
     color: white;
     letter-spacing: 5px;
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
     margin-bottom: 15px;
 }
+
 #p2 {
     margin-top: 10px;
     font-size: 125%;
     color: white;
     letter-spacing: 2px;
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
 }
+
+/* About Section */
+#about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 90vh;
+    background-color: #032B22;
+}
+
+#content {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+#text {
+    color: white;
+    font-size: 135%;
+    width: 350px;
+}
+
+#text h2 {
+    color: #40FFB5;
+    font-size: 350%;
+    margin-bottom: 15px;
+}
+
+#content img {
+    width: 600px;
+    height: 400px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+
 /* Footer */
 footer {
     color: blue;
