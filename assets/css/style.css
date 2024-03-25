@@ -112,13 +112,13 @@ main {
     justify-items: center;
 }
 
-#text {
-    color: white;
+#content #text {
+    color: rgb(232, 220, 220);
     font-size: 135%;
     width: 350px;
 }
 
-#text h2 {
+#content #text h2 {
     color: #40FFB5;
     font-size: 350%;
     margin-bottom: 15px;
@@ -145,6 +145,7 @@ main {
     width: 100vw;
     height: 90vh;
 }
+
 #pg1 h2 {
     color: #032B22;
     font-size: 350%;
@@ -155,24 +156,57 @@ main {
 #pg1 #suites {
     display: flex;
     text-align: center;
-    justify-content: space-between;    
-    flex-direction: row; 
+    justify-content: space-between;
+    flex-direction: row;
     margin: 100px 60px;
 }
+
 #suites img {
     width: 400px;
     height: 250px;
     border-radius: 15px;
 }
+
 #suites h3 {
     color: #032B22;
     font-size: 175%;
     margin-top: 5px;
 }
+
 #suites p {
     color: black;
     font-size: 85%;
     margin-top: 15px;
+}
+
+/* Page 2 */
+#pg2 {
+    background-color: #EFEDE7;
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#pg2 img {
+    width: 600px;
+    height: 350px;
+    margin-left: 100px;
+    border-radius: 10px;
+
+}
+
+#pg2 #text {
+    color: black;
+    font-size: 135%;
+    width: 400px;
+}
+
+#pg2 h2 {
+    color: #032B22;
+    font-size: 250%;
+    margin-bottom: 15px;
 }
 
 /* Footer */
