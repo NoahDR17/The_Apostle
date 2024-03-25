@@ -131,6 +131,49 @@ main {
     border-radius: 10px;
 }
 
+#accomodations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Page 1 */
+
+#pg1 {
+    background-color: #FFAFDA;
+    width: 100vw;
+    height: 90vh;
+}
+#pg1 h2 {
+    color: #032B22;
+    font-size: 350%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#pg1 #suites {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;    
+    flex-direction: row; 
+    margin: 100px 60px;
+}
+#suites img {
+    width: 400px;
+    height: 250px;
+    border-radius: 15px;
+}
+#suites h3 {
+    color: #032B22;
+    font-size: 175%;
+    margin-top: 5px;
+}
+#suites p {
+    color: black;
+    font-size: 85%;
+    margin-top: 15px;
+}
 
 /* Footer */
 footer {
