@@ -10,6 +10,7 @@ goals:
 • Clean up code, and check for any errors
 • Consider accessibilty requirements, and make any changes necessary 
 • Add Favicon 
+
 Last commit details: 901a2d2a588ed473f2f283350a971582bd959ef2
 Notes:
 Have now finished the navbar, landing page, and about us page, there is more i can still do to improve
@@ -24,3 +25,9 @@ Goals:
 • Add favicon
 • Consider accessibilty requirements, and make any changes necessary 
 • Work on accomodations pages (attempt to make styling simple to change for different screen sizes)
+
+Last commit details: 7da16c6f06350b6ea8dc51b6fd8a0b7e13d5f1fa
+Notes: 
+finished two of three pages for the accomodations page, more will be done later when i go back and add all the right fonts.
+Goals: 
+•make the navbar have a 50% transparant dark background so that it is clear to see each nav link against the webpage.
