@@ -33,3 +33,8 @@ all the right fonts.
 Goals: 
 •make the navbar have a 50% transparant dark background so that it is clear to see each nav link against
  the webpage.
+
+Last commit details: d14bc012c2dad00ac49f5333ca88945881c2a213
+Notes: Very close to finishing code for index.html file, still need to address font sizes, favicon and 
+some minor display changes. 
+
