@@ -241,5 +241,65 @@ main {
 }
 /* Footer */
 footer {
-    color: blue;
+    background-color: #032B22;
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+footer #container {
+    display: flex;
+    flex-direction: row;
+    flex: 1 0 auto;
+    align-items: center;
+    margin-top: 25px;
+}
+footer #text {
+    color: whitesmoke; 
+    font-size: 150%;
+    margin-right: 300px;
+}
+
+#text h3 {
+    color: #40FFB5;
+    font-size: 150%;
+    letter-spacing: 5px;
+}
+#contactBtn {
+    width: 250px;
+    height: 100px;
+    border-radius: 25px;
+    font-size: 250%;
+    margin-left: 300px;
+    border-style: none;
+}
+
+#apostleDiv { 
+    margin-bottom: 30px;
+}
+#apostleDiv h2 {
+    font-size: 1000%;
+    color: #40FFB5;
+    letter-spacing: 30px;
+}
+
+/* Social Media links */
+
+#socialLinks {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 80px;
+    margin-top: 15px;
+
+}
+
+#socialLinks i {
+    font-size: 200%;
+    padding: 5%;
+    color: white;
 }
