@@ -28,6 +28,8 @@ Goals:
 
 Last commit details: 7da16c6f06350b6ea8dc51b6fd8a0b7e13d5f1fa
 Notes: 
-finished two of three pages for the accomodations page, more will be done later when i go back and add all the right fonts.
+finished two of three pages for the accomodations page, more will be done later when i go back and add
+all the right fonts.
 Goals: 
-•make the navbar have a 50% transparant dark background so that it is clear to see each nav link against the webpage.
+•make the navbar have a 50% transparant dark background so that it is clear to see each nav link against
+ the webpage.

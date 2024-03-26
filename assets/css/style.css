@@ -63,16 +63,16 @@ main {
     background-position: center;
 }
 
-#welcome {
+#home {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100vw;
-    height: 90vh;
+    height: 95vh;
 }
 
-#welcome h1 {
+#home h1 {
     color: #FFAFDA;
     font-size: 480%;
     font-weight: 700;
@@ -102,7 +102,7 @@ main {
     align-items: center;
     justify-content: center;
     width: 100vw;
-    height: 90vh;
+    height: 95vh;
     background-color: #032B22;
 }
 
@@ -143,7 +143,7 @@ main {
 #pg1 {
     background-color: #FFAFDA;
     width: 100vw;
-    height: 90vh;
+    height: 95vh;
 }
 
 #pg1 h2 {
@@ -183,7 +183,7 @@ main {
 #pg2 {
     background-color: #EFEDE7;
     width: 100vw;
-    height: 90vh;
+    height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -194,7 +194,6 @@ main {
     height: 350px;
     margin-left: 100px;
     border-radius: 10px;
-
 }
 
 #pg2 #text {
@@ -209,6 +208,36 @@ main {
     margin-bottom: 15px;
 }
 
+/* Page 3 */
+#pg3 {
+    background-color: #EFEDE7;
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#pg3 div { 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-left: 75px;
+    margin-right: 75px;
+    flex-direction: column;
+}
+#pg3 img {
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;   
+}
+#pg3 h3 { 
+    color: #032B22;
+    font-size: 175%;
+}
+#pg3 p { 
+    width: 500px;
+    color: black
+}
 /* Footer */
 footer {
     color: blue;
