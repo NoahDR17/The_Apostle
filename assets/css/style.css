@@ -45,7 +45,6 @@ body {
     text-decoration: none;
     margin-left: 40px;
     color: white;
-
 }
 
 /* Main */
@@ -303,4 +302,75 @@ footer #text {
     padding: 5%;
     color: white;
     margin-top: 10px;
+}
+
+/* Contact Page */
+#contact_page {
+    width: 100%;
+    height: 95vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.20)), url(../media/contact.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(75, 75, 75, 0.75);
+    padding: 50px;
+    width: fit-content;
+    height: fit-content;
+    color: white;
+    border-radius: 5px;
+    font-size: 150%;
+}
+
+
+#contact_form h2 {
+    color: #9cfffa;
+    font-size: 250%;        
+    margin-bottom: 15px;
+}
+
+#contact_form .text-input { 
+    color: white;
+    background: transparent;
+    width: 100%;
+    height: 25px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+#contact_form #buttons {
+    display: flex;
+    margin-left: 25px;
+    gap: 25px;
+}
+#contact_form .submitBtn {
+    background-color: #9cfffa;
+    color: #032B22;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    border: none;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#returnBtn {
+    background-color: transparent;
+    color: #9cfffa;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    border: 1px solid #9cfffa;
+    width: 100px;
+    height: 50px;
+    text-decoration: none;
+
 }
