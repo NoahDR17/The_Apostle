@@ -168,9 +168,11 @@ main {
 #s1 {
     margin-right: 20px;
 }
+
 #s2 {
     margin-left: 20px;
 }
+
 #s3 {
     margin-right: 20px;
 }
@@ -185,6 +187,7 @@ main {
     justify-content: center;
     flex-direction: column;
 }
+
 #pg2-container {
     display: flex;
     align-items: center;
@@ -192,6 +195,7 @@ main {
     flex-direction: column;
     margin: 15px;
 }
+
 #pg2-container img {
     width: 250px;
     height: 125px;
@@ -228,7 +232,8 @@ main {
     display: flex;
     flex-direction: column;
     text-align: center;
-    
+    margin: 0 10px;
+    margin-bottom: 15px;
 }
 
 #pg3 img {
@@ -253,11 +258,82 @@ main {
     margin-top: 25px;
 }
 
+/* Footer */
+footer {
+    background-color: #032b22;
+    width: 100vw;
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#footer-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    align-items: center;
+    text-align: center;
+    margin-top: 25px;
+}
+
+#footer-container h3 {
+    color: #40FFB5;
+    font-size: 175%;
+    letter-spacing: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#footer-container p {
+    color: whitesmoke;
+    font-size: 125%;
+    font-family: "Courier New", Courier, monospace;
+}
+
+
+#contactBtn {
+    width: 150px;
+    height: 75px;
+    border-radius: 25px;
+    font-size: 150%;
+    border-style: none;
+    font-family: "Times New Roman", Times, serif;
+    margin-top: 45px;
+}
+
+
+#apostleDiv h2 {
+    margin-bottom: 15px;
+    font-size: 250%;
+    letter-spacing: 3px;
+    color: #40ffb5;
+    font-family: "Times New Roman", Times, serif;
+}
+
+/* Social Media links */
+
+#socialLinks {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#socialLinks i {
+    font-size: 175%;
+    padding: 5%;
+    color: white;
+    margin: 0 25px;
+    margin-top: 25px;
+}
 
 img {
     width: 100px;
     height: 100px;
 }
+
 /* large devices (laptop and larger*/
 @media screen and (min-width: 992px) {
 
@@ -627,7 +703,7 @@ img {
         gap: 25px;
     }
 
-    #contact_form .submitBtn {  
+    #contact_form .submitBtn {
         background-color: #9cfffa;
         color: #032b22;
         font-size: 1.5rem;
