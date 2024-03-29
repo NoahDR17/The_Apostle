@@ -51,3 +51,11 @@ in future i would also like to add hover effects to buttons and links.
 now that i have started working on the different screen sizes i have realised that ive made a mistake,
 i had first styled everything for a screen size of the laptop i have been using, this has made it so that 
 to style the smaller screen sizes, i need to more or less completely redo all of the styling for those sizes.
+
+Last commit details: 7be1ea1c35e5ba769498b78cdec12b0bf4cf5676
+Notes: done the majority of the smaller screen size (mobile phone) still have a few things to tweak, 
+and still have the navbar left aswell, will probably need to create a dropdown function so the nav links
+dont look to small. 
+Goals: 
+• style navbar for smaller screen size (mobile phone) 
+• check code for errors
