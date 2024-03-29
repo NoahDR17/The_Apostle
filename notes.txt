@@ -38,3 +38,10 @@ Last commit details: d14bc012c2dad00ac49f5333ca88945881c2a213
 Notes: Very close to finishing code for index.html file, still need to address font sizes, favicon and 
 some minor display changes. 
 
+Last commit details: b3e69ee8849dba41ff1f1df1ed8738e9d985c579
+Notes: error found at the button in the footer that links to the contact form, the link extends beyond the
+button alllowing you to travel to the other page without actually clicking the button.
+Goals: 
+• add correct fonts
+• add media styling for different screen sizes 
+
