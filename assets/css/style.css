@@ -214,6 +214,45 @@ main {
     text-align: center;
 }
 
+/* Page 3 */
+#pg3 {
+    background-color: #efede7;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#pg3-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+#pg3 img {
+    width: 250px;
+    height: 125px;
+    border-radius: 10px;
+}
+
+#pg3 h3 {
+    color: #032b22;
+    font-size: 1.75rem;
+    font-family: "Times New Roman", Times, serif;
+}
+
+#pg3 p {
+    color: black;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1rem;
+}
+
+#container-2 {
+    margin-top: 25px;
+}
+
 
 img {
     width: 100px;
