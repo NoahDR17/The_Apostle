@@ -48,3 +48,6 @@ Goals:
 Last commit details: 93a995943dbaa084366857fcdefc83890daff34e
 Notes: Decided against adding placeholder text in the form. still need to sort out different screen sizes. 
 in future i would also like to add hover effects to buttons and links. 
+now that i have started working on the different screen sizes i have realised that ive made a mistake,
+i had first styled everything for a screen size of the laptop i have been using, this has made it so that 
+to style the smaller screen sizes, i need to more or less completely redo all of the styling for those sizes.
