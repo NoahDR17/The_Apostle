@@ -45,3 +45,6 @@ Goals:
 • add correct fonts
 • add media styling for different screen sizes 
 
+Last commit details: 93a995943dbaa084366857fcdefc83890daff34e
+Notes: Decided against adding placeholder text in the form. still need to sort out different screen sizes. 
+in future i would also like to add hover effects to buttons and links. 
