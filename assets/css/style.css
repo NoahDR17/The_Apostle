@@ -115,11 +115,109 @@ main {
 }
 
 
+/* Accomodations section */
+#accomodations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Page 1 */
+
+#pg1 {
+    background-color: #ffafda;
+    width: 100vw;
+    height: 95vh;
+}
+
+#pg1 h2 {
+    color: #032b22;
+    text-align: center;
+    font-size: 225%;
+    font-family: "Times New Roman", Times, serif;
+    margin: 20px;
+}
+
+#pg1 #suites {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+#suites img {
+    width: 200px;
+    height: 100px;
+}
+
+#suites h3 {
+    color: #032b22;
+    margin-top: 5px;
+    font-family: "Times New Roman", Times, serif;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#suites p {
+    color: black;
+    font-family: "Courier New", Courier, monospace;
+}
+
+#s1 {
+    margin-right: 20px;
+}
+#s2 {
+    margin-left: 20px;
+}
+#s3 {
+    margin-right: 20px;
+}
+
+/* Page 2 */
+#pg2 {
+    background-color: #efede7;
+    width: 100vw;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#pg2-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 15px;
+}
+#pg2-container img {
+    width: 250px;
+    height: 125px;
+    border-radius: 10px;
+}
+
+#pg2-container p {
+    color: black;
+    font-size: 120%;
+    font-family: "Courier New", Courier, monospace;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#pg2-container h2 {
+    color: #032b22;
+    font-size: 250%;
+    margin-bottom: 15px;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+}
+
+
 img {
     width: 100px;
     height: 100px;
 }
-
 /* large devices (laptop and larger*/
 @media screen and (min-width: 992px) {
 
@@ -489,7 +587,7 @@ img {
         gap: 25px;
     }
 
-    #contact_form .submitBtn {
+    #contact_form .submitBtn {  
         background-color: #9cfffa;
         color: #032b22;
         font-size: 1.5rem;
