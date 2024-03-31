@@ -291,72 +291,82 @@ main {
 /* Footer */
 footer {
     background-color: #032b22;
-    width: 100vw;
-    height: 65vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    min-width: 100vw;
+    min-height: 35vh;
+    padding: 10px 0;
 }
 
 #footer-container {
     display: flex;
-    flex-direction: column;
-    flex: 1 0 auto;
+    flex-wrap: wrap;
     align-items: center;
-    text-align: center;
-    margin-top: 25px;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    flex-flow: row-reverse;
+    width: 100%;
+    padding: 20px 15px;
+}
+
+#footer-container h3 #txt {
+    width: 50%;
 }
 
 #footer-container h3 {
     color: #40FFB5;
-    font-size: 175%;
-    letter-spacing: 5px;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    text-align: center;
     font-family: 'Times New Roman', Times, serif;
 }
 
 #footer-container p {
     color: whitesmoke;
-    font-size: 125%;
+    font-size: 1rem;
     font-family: "Courier New", Courier, monospace;
+    text-align: center;
+    text-decoration: none;
 }
-
 
 #contactBtn {
-    width: 150px;
-    height: 75px;
+    width: 100px;
+    height: 50px;
     border-radius: 25px;
-    font-size: 150%;
+    font-size: 1.15rem;
     border-style: none;
     font-family: "Times New Roman", Times, serif;
-    margin-top: 45px;
 }
 
-
-#apostleDiv h2 {
-    margin-bottom: 15px;
-    font-size: 250%;
-    letter-spacing: 3px;
-    color: #40ffb5;
-    font-family: "Times New Roman", Times, serif;
-}
 
 /* Social Media links */
-
 #socialLinks {
-    display: flex;
     list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
     align-items: center;
-    justify-content: center;
-    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 15px; 
+    width: 100%;
+    height: 100%;
 }
 
 #socialLinks i {
     font-size: 175%;
-    padding: 5%;
     color: white;
-    margin: 0 25px;
-    margin-top: 25px;
+}
+
+#apostle-div {
+    display: none;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+}
+#apostle-div h2 {
+    font-size: 3em;
+    letter-spacing: 3px;
+    color: #40ffb5;
+    font-family: "Times New Roman", Times, serif;
 }
 
 /* Contact Page */
