@@ -966,6 +966,8 @@ footer {
         color: #40FFB5;
         font-size: 250%;
         letter-spacing: 5px;
+        margin-right: 300px;
+
         font-family: 'Times New Roman', Times, serif;
     }
 
@@ -994,6 +996,7 @@ footer {
         font-size: 1000%;
         color: #40ffb5;
         letter-spacing: 30px;
+        margin-bottom: 0;
         font-family: "Times New Roman", Times, serif;
     }
 
