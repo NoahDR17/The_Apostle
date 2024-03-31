@@ -693,6 +693,29 @@ footer {
         margin-top: 10px;
     }
 
+    /* Contact Page */
+    #contact_form p {
+        font-size: 225%;
+    }
+
+    #contact_form h2 {
+        font-size: 400%;
+        margin-bottom: 10px;
+    }
+
+    #contact_form .text-input {
+        width: 100%;
+        height: 30px;
+        border: 2px solid white;
+        margin-bottom: 15px;
+    }
+
+    #contact_form .submitBtn {
+        font-size: 2.5rem;
+        border: none;
+        width: 175px;
+        height: 75px;
+    }
 }
 
 /* large devices (laptop and larger*/
