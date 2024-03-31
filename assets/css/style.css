@@ -884,6 +884,7 @@ footer {
         align-items: center;
         justify-content: space-evenly;
     }
+
     #pg2 img {
         width: 650px;
         height: 375px;
@@ -891,9 +892,9 @@ footer {
     }
 
     #pg2-container p {
-        font-size: 1.5rem; 
-        width: 75%; 
-          
+        font-size: 1.5rem;
+        width: 75%;
+
     }
 
     #pg2-container h2 {
@@ -905,40 +906,42 @@ footer {
     #pg3 {
         background-color: #efede7;
         width: 100vw;
-        height: 90vh;
+        height: 60vh;
         display: flex;
-        align-items: center;
+        align-items: start;
         justify-content: center;
     }
 
     #pg3-container {
         display: flex;
         flex-direction: row;
-    }
+        text-align: center;
+        margin: 0;
+        margin-bottom: 0;
+        margin-top: 50px;
 
-    #pg3 div {
-        margin-left: 75px;
-        margin-right: 75px;
     }
 
     #pg3 img {
         width: 500px;
-        height: 300px;
+        height: 250px;
         border-radius: 10px;
     }
 
     #pg3 h3 {
-        color: #032b22;
-        font-size: 175%;
-        font-family: "Times New Roman", Times, serif;
+        font-size: 2rem;
     }
 
     #pg3 p {
-        width: 500px;
         color: black;
         font-family: "Courier New", Courier, monospace;
-        font-size: 115%;
+        font-size: 1.25rem;
     }
+
+    #container-2 {
+        margin-top: 0;
+    }
+
 
     /* Footer */
     footer {
