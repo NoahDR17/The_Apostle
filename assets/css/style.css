@@ -494,6 +494,46 @@ footer {
         font-size: 200%;
     }
 
+    /* About Section */
+    #about {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 70vh;
+        background-color: #032b22;
+    }
+
+    #content {
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        flex-direction: column;
+    }
+
+    #content #text p {
+        color: white;
+        font-family: "Courier New", Courier, monospace;
+        font-size: 40px;
+        font-weight: 500;
+        margin: 15px;
+        text-align: center;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+            url(../media/about_us.jpg);
+        background-size: cover;
+        background-position: center;
+        padding: 10px;
+        border-radius: 5px;
+        width: 675px;
+        height: 675px;
+    }
+
+    #content #text h2 {
+        color: #40ffb5;
+        font-size: 550%;
+        font-family: "Times New Roman", Times, serif;
+        text-align: center;
+        margin: 15px;
+    }
 }
 
 /* large devices (laptop and larger*/
