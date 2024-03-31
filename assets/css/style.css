@@ -32,7 +32,7 @@ header ul {
     border-bottom: 3px solid rgba(0, 0, 0, 0.50);
 }
 
-header a { 
+header a {
     text-decoration: none;
     color: white;
     font-size: 1.25rem;
@@ -40,9 +40,9 @@ header a {
     margin-left: 15px;
 }
 
-nav{
+nav {
     display: none;
-    left: 0;    
+    left: 0;
     width: 100%;
     position: absolute;
 }
@@ -55,13 +55,14 @@ nav{
     margin: 15px;
 }
 
-#nav-dropdown:checked~nav { 
-        display: block;
+#nav-dropdown:checked~nav {
+    display: block;
 }
 
 #nav-dropdown {
     display: none;
 }
+
 /* Main */
 main {
     /* main takes up surplus space whcih pushes footer down */
@@ -439,12 +440,13 @@ footer {
 }
 
 /* tablets and larger (768 and above) */
-@media screen and (min-width: 768px) { 
+@media screen and (min-width: 768px) {
 
     /* navbar */
     .dropdown-label {
         display: none;
     }
+
     header {
         position: fixed;
         top: 0;
@@ -452,10 +454,11 @@ footer {
         height: 10vh;
         background-color: rgba(0, 0, 0, 0.5);
     }
+
     .navbar {
         position: relative;
         display: flex;
-   }
+    }
 
     .navbar a {
         font-size: 32.5px;
@@ -464,16 +467,33 @@ footer {
         color: white;
         font-family: "Courier New", Courier, monospace;
     }
+
     #links {
         display: flex;
         width: 100%;
         align-items: center;
-        justify-content: space-evenly;  
-        background-color: transparent;  
+        justify-content: space-evenly;
+        background-color: transparent;
         list-style-type: none;
         padding-bottom: 50px;
 
     }
+
+    /* Home Section */
+
+    #home h1 {
+        color: #ffafda;
+        font-size: 550%;
+    }
+
+    #p1 {
+        font-size: 200%;
+    }
+
+    #p2 {
+        font-size: 200%;
+    }
+
 }
 
 /* large devices (laptop and larger*/
