@@ -59,3 +59,9 @@ dont look to small.
 Goals: 
 • style navbar for smaller screen size (mobile phone) 
 • check code for errors
+
+Notes: i have added a drop down label to the navbar for the smaller screen size, to do this i had to 
+add html code, which means ill need to go back to the laptop screen size styling and adjust that too, 
+but ive more or less fully completed the styling for the mobile screen size now, one thing i still need
+to do is figure out why i cant uncheck the dropdown checkbox. since after checking it and revealing the
+navbar clicking it again to uncheck it doesnt do anything. 

@@ -21,10 +21,16 @@
 <body>
  <!-- navbar -->
  <header>
-    <nav class='navbar'>
-        <a href="index.html">Return</a>
-        <a href="./contact.html">Contact</a>
-    </nav>
+        <input type="checkbox" name="nav-dropdown" id="nav-dropdown">
+        <label for="nav-dropdown" class="dropdown-label">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <nav class='navbar'>
+            <ul id="links">
+                <li><a href="./index.html">Return</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
 </header>
     <main id="contact_page">
         <section id="contact">
@@ -45,6 +51,8 @@
 
         </section>
     </main>
+        <!-- Font Awesome kit -->
+        <script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
