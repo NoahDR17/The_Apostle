@@ -65,3 +65,10 @@ add html code, which means ill need to go back to the laptop screen size styling
 but ive more or less fully completed the styling for the mobile screen size now, one thing i still need
 to do is figure out why i cant uncheck the dropdown checkbox. since after checking it and revealing the
 navbar clicking it again to uncheck it doesnt do anything. 
+
+Last commit details: 50f4a465be252cce817650d59c207ec7794c0b5a
+Notes: after styling the media querys for 768px, and 992px widths, ive realised a mistake ive made in my 
+planning,i have forgotten about the flex grow and wrap properties, and that when coming close to the 
+next minimun width media query size, the site doesnt look good because its not responsive enough to different screen
+sizes between these different levels, i can eiter go back and add in flex grow properties, or add
+more media querys.
