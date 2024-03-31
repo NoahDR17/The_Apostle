@@ -118,15 +118,19 @@ main {
     display: flex;
     flex-direction: column;
     width: 100vw;
-    height: 70vh;
+    height: 100vh;
     background-color: #032b22;
 }
 
 #content {
     display: flex;
     align-items: center;
-    justify-items: center;
+    justify-content: center;
     flex-direction: column;
+    flex-wrap: wrap;
+    flex-flow: column;
+    flex-grow: 1;
+    text-align: center;
 }
 
 #content #text p {
@@ -134,16 +138,8 @@ main {
     font-family: "Courier New", Courier, monospace;
     font-size: 16px;
     font-weight: 500;
-    margin: 15px;
-    text-align: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url(../media/about_us.jpg);
-    background-size: cover;
-    background-position: center;
-    padding: 10px;
+    padding: 0 25px;
     border-radius: 5px;
-    width: fit-content;
-    height: fit-content;
 }
 
 #content #text h2 {
@@ -151,14 +147,13 @@ main {
     font-size: 350%;
     font-family: "Times New Roman", Times, serif;
     text-align: center;
-    margin: 15px;
+    margin-bottom: 25px;
 }
 
 #content img {
-    width: 200px;
-    height: 100px;
-    border-radius: 10px;
-    display: none;
+    border-radius: 50px;
+    width: 100%;
+    padding: 25px;
 }
 
 
