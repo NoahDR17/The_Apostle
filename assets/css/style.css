@@ -534,6 +534,7 @@ footer {
         text-align: center;
         margin: 15px;
     }
+
     /* Accomodations Pages */
     #accomodations {
         display: flex;
@@ -570,7 +571,7 @@ footer {
         margin-top: 5px;
         font-family: "Times New Roman", Times, serif;
     }
-    
+
     #suites p {
         color: black;
         font-size: 150%;
@@ -581,11 +582,11 @@ footer {
     #s1 {
         margin-right: 0;
     }
-    
+
     #s2 {
         margin-left: 0;
     }
-    
+
     #s3 {
         margin-right: 0;
     }
@@ -615,31 +616,83 @@ footer {
         margin-bottom: 30px;
     }
 
-        /* Page 3 */
-        #pg3 {
-            height: 105vh;
-        }
-    
-        #pg3-container {
-            flex-direction: column;
-        }
-    
-        #pg3 img {
-            width: 650px;
-            height: 375px;
-        }
-    
-        #pg3 h3 {
-            font-size: 300%;
-        }
-    
-        #pg3 p {
-            font-size: 175%;
-            margin-bottom: 20px;
-            margin-left: 15px;
-            margin: 0 10px;
-        }
-    
+    /* Page 3 */
+    #pg3 {
+        height: 105vh;
+    }
+
+    #pg3-container {
+        flex-direction: column;
+    }
+
+    #pg3 img {
+        width: 650px;
+        height: 375px;
+    }
+
+    #pg3 h3 {
+        font-size: 300%;
+    }
+
+    #pg3 p {
+        font-size: 175%;
+        margin-bottom: 20px;
+        margin-left: 15px;
+        margin: 0 10px;
+    }
+
+    /* Footer */
+    footer {
+        height: 40vh;
+    }
+
+    #footer-container {
+        flex-direction: row;
+        margin: 0;
+    }
+
+    #footer-container h3 {
+        font-size: 300%;
+        margin-right: 20px;
+    }
+
+    #footer-container p {
+        font-size: 175%;
+        margin-right: 20px;
+
+    }
+
+    #contactBtn {
+        width: 250px;
+        height: 100px;
+        font-size: 250%;
+        margin-left: 20px;
+        margin-bottom: 25px;
+
+    }
+
+    #apostleDiv {
+        margin-bottom: 0;
+    }
+
+    #apostleDiv h2 {
+        font-size: 700%;
+        letter-spacing: 10px;
+    }
+
+    /* Social Media links */
+
+    #socialLinks {
+        flex-direction: column;
+        gap: 60px;
+        margin-top: 15px;
+    }
+
+    #socialLinks i {
+        font-size: 250%;
+        margin-top: 10px;
+    }
+
 }
 
 /* large devices (laptop and larger*/
