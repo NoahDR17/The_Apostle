@@ -594,7 +594,7 @@ footer {
     #pg2 {
         background-color: #efede7;
         width: 100vw;
-        height: 80vh;
+        height: 90vh;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -615,6 +615,31 @@ footer {
         margin-bottom: 30px;
     }
 
+        /* Page 3 */
+        #pg3 {
+            height: 105vh;
+        }
+    
+        #pg3-container {
+            flex-direction: column;
+        }
+    
+        #pg3 img {
+            width: 650px;
+            height: 375px;
+        }
+    
+        #pg3 h3 {
+            font-size: 300%;
+        }
+    
+        #pg3 p {
+            font-size: 175%;
+            margin-bottom: 20px;
+            margin-left: 15px;
+            margin: 0 10px;
+        }
+    
 }
 
 /* large devices (laptop and larger*/
