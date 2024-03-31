@@ -170,27 +170,30 @@ main {
 #pg1 {
     background-color: #ffafda;
     width: 100vw;
-    height: 95vh;
+    min-height: 100vh;
 }
 
 #pg1 h2 {
     color: #032b22;
     text-align: center;
-    font-size: 225%;
+    font-size: 2.5rem;
     font-family: "Times New Roman", Times, serif;
     margin: 20px;
 }
 
 #pg1 #suites {
     display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    flex-direction: column;
-    margin-top: 20px;
+    flex-grow: 1;
+
 }
 
 #suites img {
-    width: 200px;
-    height: 100px;
+    width: 60%;
     border-radius: 5px;
 }
 
@@ -200,48 +203,34 @@ main {
     font-family: "Times New Roman", Times, serif;
     margin-bottom: 20px;
     text-align: center;
+    font-size: 1.5rem;
 }
 
 #suites p {
     color: black;
     font-family: "Courier New", Courier, monospace;
+    font-size: 1rem;
 }
 
-#s1 {
-    margin-right: 20px;
-}
-
-#s2 {
-    margin-left: 20px;
-}
-
-#s3 {
-    margin-right: 20px;
-}
 
 /* Page 2 */
 #pg2 {
     background-color: #efede7;
     width: 100vw;
-    height: 95vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    min-height: 80vh;
 }
 
 #pg2-container {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    margin: 15px;
 }
 
 #pg2-container img {
-    width: 250px;
-    height: 125px;
+    width: 80%;
     border-radius: 10px;
+    margin-bottom: 25px;
 }
 
 #pg2-container p {
@@ -258,46 +247,45 @@ main {
     margin-bottom: 15px;
     font-family: "Times New Roman", Times, serif;
     text-align: center;
+    width: 100%;
+    margin: 25px 0;
 }
 
 /* Page 3 */
 #pg3 {
     background-color: #efede7;
     width: 100vw;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    min-height: 100vh;
 }
 
 #pg3-container {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    margin: 0 10px;
-    margin-bottom: 15px;
+    flex-grow: 1;
 }
 
 #pg3 img {
-    width: 250px;
-    height: 125px;
+    width: 50%;
     border-radius: 10px;
+    margin-top: 25px;
 }
 
 #pg3 h3 {
     color: #032b22;
-    font-size: 1.75rem;
+    font-size: 2rem;
     font-family: "Times New Roman", Times, serif;
 }
 
 #pg3 p {
     color: black;
     font-family: "Courier New", Courier, monospace;
-    font-size: 1rem;
-}
-
-#container-2 {
-    margin-top: 25px;
+    font-size: 1.25rem;
+    margin-bottom: 25px;
+    text-align: center;
+    padding: 0 25px;
 }
 
 /* Footer */
