@@ -720,6 +720,7 @@ footer {
 
 /* large devices (laptop and larger (992px )*/
 @media screen and (min-width: 992px) {
+
     /* Header */
     .navbar {
         width: 100%;
@@ -733,12 +734,14 @@ footer {
         font-size: 20px;
         font-weight: 500;
     }
+
     header ul {
         background-color: rgba(0, 0, 0, 0.25);
         margin-top: 50px;
         border-bottom: 0;
     }
-    /* Home Section */  
+
+    /* Home Section */
     #home {
         height: 95vh;
     }
@@ -755,39 +758,48 @@ footer {
     /* About Section */
     #about {
         display: flex;
-        flex-direction: column;
         align-items: center;
         justify-content: center;
+        flex-direction: row;
         width: 100vw;
-        height: 95vh;
+        height: 70vh;
         background-color: #032b22;
     }
 
     #content {
         display: flex;
         align-items: center;
-        justify-items: center;
+        justify-content: space-evenly;
+        flex-direction: row;
     }
 
     #content #text p {
-        color: #e8dcdc;
-        font-size: 135%;
-        width: 500px;
-        font-family: "Courier New", Courier, monospace;
+        font-size: 18px;
+        font-weight: 500;
+        margin-right: 75px;
+        text-align: center;
+        background-image: none;
+        background-size: 0;
+        background-position: 0;
+        padding: 0;
+        border-radius: 0;
+        width: 325px;
+        height: 275px;
     }
 
     #content #text h2 {
         color: #40ffb5;
-        font-size: 350%;
-        margin-bottom: 15px;
+        font-size: 500%;
         font-family: "Times New Roman", Times, serif;
+        text-align: center;
+        margin-right: 75px;
     }
 
     #content img {
         width: 600px;
-        height: 400px;
-        margin-left: 50px;
+        height: 350px;
         border-radius: 10px;
+        display: flex;
     }
 
     #accomodations {
