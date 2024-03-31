@@ -871,31 +871,34 @@ footer {
     #pg2 {
         background-color: #efede7;
         width: 100vw;
-        height: 80vh;
+        height: 90vh;
         display: flex;
-        align-items: center;
-        justify-content: center;
+        align-items: start;
+        justify-content: start;
     }
 
+    #pg2-container {
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
     #pg2 img {
-        width: 600px;
-        height: 350px;
-        margin-left: 100px;
+        width: 650px;
+        height: 375px;
         border-radius: 10px;
     }
 
-    #pg2 #text p {
-        color: black;
-        font-size: 120%;
-        width: 400px;
-        font-family: "Courier New", Courier, monospace;
+    #pg2-container p {
+        font-size: 1.5rem; 
+        width: 75%; 
+          
     }
 
-    #pg2 h2 {
-        color: #032b22;
-        font-size: 250%;
-        margin-bottom: 15px;
-        font-family: "Times New Roman", Times, serif;
+    #pg2-container h2 {
+        font-size: 400%;
+        align-self: center;
     }
 
     /* Page 3 */
