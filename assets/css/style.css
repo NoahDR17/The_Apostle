@@ -589,6 +589,32 @@ footer {
     #s3 {
         margin-right: 0;
     }
+
+    /* Page 2 */
+    #pg2 {
+        background-color: #efede7;
+        width: 100vw;
+        height: 80vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #pg2 img {
+        width: 650px;
+        height: 375px;
+        border-radius: 10px;
+    }
+
+    #pg2-container p {
+        font-size: 200%;
+    }
+
+    #pg2-container h2 {
+        font-size: 400%;
+        margin-bottom: 30px;
+    }
+
 }
 
 /* large devices (laptop and larger*/
