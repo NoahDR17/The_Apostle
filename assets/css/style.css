@@ -68,7 +68,7 @@ nav {
     justify-content: center;
     flex-direction: column;
     position: absolute;
-    font-size: 3rem;
+    font-size: 1.5rem;
 }
 /* Main */
 main {
@@ -422,7 +422,9 @@ footer {
 
 /* tablets and larger (768 and above) */
 @media screen and (min-width: 768px) {
-
+    #error-page {
+        font-size: 3rem;
+    }
     /* navbar */
     .dropdown-label {
         display: none;
