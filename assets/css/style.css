@@ -122,7 +122,7 @@ main {
     background-position: center;
 }
 
-#home {
+#home-txt {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -131,7 +131,7 @@ main {
     height: 90vh;
 }
 
-#home h1 {
+#home-txt h2 {
     color: #ffafda;
     font-size: 350%;
     font-weight: 700;
@@ -139,7 +139,7 @@ main {
     text-align: center;
 }
 
-#p1 {
+#home-txt #p1 {
     font-size: 125%;
     color: white;
     letter-spacing: 5px;
@@ -147,7 +147,7 @@ main {
     margin-bottom: 15px;
 }
 
-#p2 {
+#home-txt #p2 {
     margin-top: 10px;
     font-size: 125%;
     color: white;
@@ -523,16 +523,16 @@ footer {
     }
 
     /* Home */
-    #home h1 {
+    #home-txt h2 {
         font-size: 550%;
     }
 
-    #p1 {
-        font-size: 180%;
+    #home-txt #p1 {
+        font-size: 150%;
     }
 
-    #p2 {
-        font-size: 180%;
+    #home-txt #p2 {
+        font-size: 150%;
     }
 
     /* About */
