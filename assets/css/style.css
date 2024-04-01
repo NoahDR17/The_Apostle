@@ -126,16 +126,16 @@ main {
     text-align: center;
 }
 
-#content #text p {
+#content p {
     color: white;
     font-family: "Courier New", Courier, monospace;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 500;
     padding: 0 25px;
     border-radius: 5px;
 }
 
-#content #text h2 {
+#about h2 {
     color: #40ffb5;
     font-size: 350%;
     font-family: "Times New Roman", Times, serif;
@@ -210,7 +210,6 @@ main {
 #pg2 {
     background-color: #efede7;
     width: 100vw;
-    min-height: 80vh;
 }
 
 #pg2-container {
@@ -231,7 +230,7 @@ main {
     font-size: 120%;
     font-family: "Courier New", Courier, monospace;
     text-align: center;
-    margin-top: 15px;
+    padding: 15px;
 }
 
 #pg2-container h2 {
@@ -285,7 +284,6 @@ main {
 footer {
     background-color: #032b22;
     min-width: 100vw;
-    min-height: 35vh;
     padding: 10px 0;
 }
 
@@ -338,7 +336,7 @@ footer {
     flex-flow: row;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 15px; 
+    padding: 10px 15px;
     width: 100%;
     height: 100%;
 }
@@ -346,20 +344,6 @@ footer {
 #socialLinks i {
     font-size: 175%;
     color: white;
-}
-
-#apostle-div {
-    display: none;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    width: 100%;
-    height: 100%;
-}
-#apostle-div h2 {
-    font-size: 3em;
-    letter-spacing: 3px;
-    color: #40ffb5;
-    font-family: "Times New Roman", Times, serif;
 }
 
 /* Contact Page */
@@ -467,327 +451,31 @@ footer {
         margin: 0;
     }
 
-    /* Home Section */
-
+    /* Home */
     #home h1 {
-        color: #ffafda;
         font-size: 550%;
     }
 
     #p1 {
-        font-size: 200%;
+        font-size: 180%;
     }
 
     #p2 {
-        font-size: 200%;
+        font-size: 180%;
     }
 
-    /* About Section */
-    #about {
-        display: flex;
-        flex-direction: column;
-        width: 100vw;
-        height: 70vh;
-        background-color: #032b22;
+    /* About */
+    #content p {
+        font-size: 32px;
     }
 
-    #content {
-        display: flex;
-        align-items: center;
-        justify-items: center;
-        flex-direction: column;
-    }
-
-    #content #text p {
-        color: white;
-        font-family: "Courier New", Courier, monospace;
-        font-size: 40px;
-        font-weight: 500;
-        margin: 15px;
-        text-align: center;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-            url(../media/about_us.jpg);
-        background-size: cover;
-        background-position: center;
-        padding: 10px;
-        border-radius: 5px;
-        width: 675px;
-        height: 675px;
-    }
-
-    #content #text h2 {
-        color: #40ffb5;
-        font-size: 550%;
-        font-family: "Times New Roman", Times, serif;
-        text-align: center;
-        margin: 15px;
-    }
-
-    /* Accomodations Pages */
-    #accomodations {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    /* Page 1 */
-
-    #pg1 {
-        background-color: #ffafda;
-        width: 100vw;
-        height: 110vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-    }
-
-    #pg1 h2 {
-        font-size: 500%;
-    }
-
-    #suites img {
-        width: 400px;
-        height: 250px;
-        border-radius: 15px;
-    }
-
-    #suites h3 {
-        color: #032b22;
-        font-size: 275%;
-        margin-top: 5px;
-        font-family: "Times New Roman", Times, serif;
-    }
-
-    #suites p {
-        color: black;
-        font-size: 150%;
-        margin-top: 10px;
-        font-family: "Courier New", Courier, monospace;
-    }
-
-    #s1 {
-        margin-right: 0;
-    }
-
-    #s2 {
-        margin-left: 0;
-    }
-
-    #s3 {
-        margin-right: 0;
-    }
-
-    /* Page 2 */
-    #pg2 {
-        background-color: #efede7;
-        width: 100vw;
-        height: 90vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    #pg2 img {
-        width: 650px;
-        height: 375px;
-        border-radius: 10px;
-    }
-
-    #pg2-container p {
-        font-size: 200%;
-    }
-
-    #pg2-container h2 {
-        font-size: 400%;
-        margin-bottom: 30px;
-    }
-
-    /* Page 3 */
-    #pg3 {
-        height: 105vh;
-    }
-
-    #pg3-container {
-        flex-direction: column;
-    }
-
-    #pg3 img {
-        width: 650px;
-        height: 375px;
-    }
-
-    #pg3 h3 {
-        font-size: 300%;
-    }
-
-    #pg3 p {
-        font-size: 175%;
-        margin-bottom: 20px;
-        margin-left: 15px;
-        margin: 0 10px;
-    }
-
-    /* Footer */
-    footer {
-        height: 40vh;
-    }
-
-    #footer-container {
-        flex-direction: row;
-        margin: 0;
-    }
-
-    #footer-container h3 {
-        font-size: 300%;
-        margin-right: 20px;
-    }
-
-    #footer-container p {
-        font-size: 175%;
-        margin-right: 20px;
-
-    }
-
-    #contactBtn {
-        width: 250px;
-        height: 100px;
-        font-size: 250%;
-        margin-left: 20px;
+    #about h2 {
+        font-size: 450%;
         margin-bottom: 25px;
-
-    }
-
-    #apostleDiv {
-        margin-bottom: 0;
-    }
-
-    #apostleDiv h2 {
-        font-size: 700%;
-        letter-spacing: 10px;
-    }
-
-    /* Social Media links */
-
-    #socialLinks {
-        flex-direction: column;
-        gap: 60px;
-        margin-top: 15px;
-    }
-
-    #socialLinks i {
-        font-size: 250%;
-        margin-top: 10px;
-    }
-
-    /* Contact Page */
-    #contact_form p {
-        font-size: 225%;
-    }
-
-    #contact_form h2 {
-        font-size: 400%;
-        margin-bottom: 10px;
-    }
-
-    #contact_form .text-input {
-        width: 100%;
-        height: 30px;
-        border: 2px solid white;
-        margin-bottom: 15px;
-    }
-
-    #contact_form .submitBtn {
-        font-size: 2.5rem;
-        border: none;
-        width: 175px;
-        height: 75px;
-    }
-}
-
-/* large devices (laptop and larger (992px )*/
-@media screen and (min-width: 992px) {
-
-    /* Header */
-    .navbar {
-        width: 100%;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        background-color: rgba(0, 0, 0, 0.25);
-    }
-
-    .navbar a {
-        font-size: 20px;
-        font-weight: 500;
-    }
-
-    header ul {
-        background-color: rgba(0, 0, 0, 0.25);
-        margin-top: 50px;
-        border-bottom: 0;
-    }
-
-    /* Home Section */
-    #home {
-        height: 95vh;
-    }
-
-    #p1 {
-        font-size: 135%;
-        color: white;
-    }
-
-    #p2 {
-        font-size: 135%;
-    }
-
-    /* About Section */
-    #about {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: row;
-        width: 100vw;
-        height: 70vh;
-        background-color: #032b22;
-    }
-
-    #content {
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        flex-direction: row;
-    }
-
-    #content #text p {
-        font-size: 18px;
-        font-weight: 500;
-        margin-right: 75px;
-        text-align: center;
-        background-image: none;
-        background-size: 0;
-        background-position: 0;
-        padding: 0;
-        border-radius: 0;
-        width: 325px;
-        height: 275px;
-    }
-
-    #content #text h2 {
-        color: #40ffb5;
-        font-size: 500%;
-        font-family: "Times New Roman", Times, serif;
-        text-align: center;
-        margin-right: 75px;
     }
 
     #content img {
-        width: 600px;
-        height: 350px;
-        border-radius: 10px;
-        display: flex;
+        width: 75%;
     }
 
     /* Accomodations section */
@@ -799,235 +487,72 @@ footer {
     }
 
     /* Page 1 */
-
-    #pg1 {
-        background-color: #ffafda;
-        width: 100vw;
-        height: 85vh;
-    }
-
     #pg1 h2 {
-        text-align: center;
-        font-size: 4rem;
-        margin-top: 40px;
-    }
-
-    #pg1 #suites {
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        text-align: center;
-        flex-direction: row;
-        margin-bottom: 50px;
-        width: 100%;
-        height: 100%;
+        font-size: 3.5rem;
     }
 
     #suites img {
-        width: 400px;
-        height: 200px;
-        border-radius: 5px;
+        width: 65%;
+        border-radius: 10px;
     }
 
     #suites h3 {
-        color: #032b22;
-        font-family: "Times New Roman", Times, serif;
-        margin-bottom: 0;
-        text-align: center;
-        font-size: 2.5rem;
-    }
-
-    #suites p {
-        color: black;
-        font-family: "Courier New", Courier, monospace;
-        font-size: 1.25rem;
-    }
-
-    #s1 {
-        margin-right: 0;
-    }
-
-    #s2 {
-        margin-left: 0;
-    }
-
-    #s3 {
-        margin-right: 0;
-    }
-
-    /* Page 2 */
-    #pg2 {
-        background-color: #efede7;
-        width: 100vw;
-        height: 90vh;
-        display: flex;
-        align-items: start;
-        justify-content: start;
-    }
-
-    #pg2-container {
-        display: flex;
-        height: 100%;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
-    }
-
-    #pg2 img {
-        width: 650px;
-        height: 375px;
-        border-radius: 10px;
-    }
-
-    #pg2-container p {
-        font-size: 1.5rem;
-        width: 75%;
-
-    }
-
-    #pg2-container h2 {
-        font-size: 400%;
-        align-self: center;
-    }
-
-    /* Page 3 */
-    #pg3 {
-        background-color: #efede7;
-        width: 100vw;
-        height: 60vh;
-        display: flex;
-        align-items: start;
-        justify-content: center;
-    }
-
-    #pg3-container {
-        display: flex;
-        flex-direction: row;
-        text-align: center;
-        margin: 0;
-        margin-bottom: 0;
-        margin-top: 50px;
-
-    }
-
-    #pg3 img {
-        width: 500px;
-        height: 250px;
-        border-radius: 10px;
-    }
-
-    #pg3 h3 {
         font-size: 2rem;
     }
 
+    #suites p {
+        font-size: 1.5rem;
+    }
+
+    /* Page 2 */
+    #pg2-container {
+        margin-bottom: 25px;
+    }
+
+    #pg2-container p {
+        font-size: 175%;
+    }
+
+    #pg2-container h2 {
+        font-size: 375%;
+    }
+
+    /* Page 3 */
+
+    #pg3 h3 {
+        font-size: 2.5rem;
+    }
+
     #pg3 p {
-        color: black;
-        font-family: "Courier New", Courier, monospace;
-        font-size: 1.25rem;
+        font-size: 1.75rem;
     }
-
-    #container-2 {
-        margin-top: 0;
-    }
-
 
     /* Footer */
-    footer {
-        background-color: #032b22;
-        width: 100vw;
-        height: 70vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-    }
-
-    #footer-container {
-        display: flex;
-        flex-direction: row;
-        flex: 1 0 auto;
-        align-items: center;
-        margin-top: 25px;
-    }
 
     #footer-container h3 {
-        color: #40FFB5;
-        font-size: 250%;
-        letter-spacing: 5px;
-        margin-right: 300px;
-
-        font-family: 'Times New Roman', Times, serif;
+        font-size: 3.25rem;
     }
 
     #footer-container p {
-        color: whitesmoke;
-        font-size: 150%;
-        margin-right: 300px;
-        font-family: "Courier New", Courier, monospace;
+        font-size: 1.5rem;
     }
 
     #contactBtn {
-        width: 250px;
+        width: 200px;
         height: 100px;
-        border-radius: 25px;
-        font-size: 250%;
-        margin-left: 300px;
-        border-style: none;
-        font-family: "Times New Roman", Times, serif;
-    }
-
-    #apostleDiv {
-        margin-bottom: 30px;
-    }
-
-    #apostleDiv h2 {
-        font-size: 1000%;
-        color: #40ffb5;
-        letter-spacing: 30px;
-        margin-bottom: 0;
-        font-family: "Times New Roman", Times, serif;
+        font-size: 2rem;
     }
 
     /* Social Media links */
-
     #socialLinks {
-        display: flex;
-        list-style-type: none;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        gap: 80px;
+        padding: 10px 25px;
         margin-top: 15px;
     }
 
     #socialLinks i {
         font-size: 200%;
-        padding: 5%;
-        color: white;
-        margin-top: 10px;
-    }
-
-    /* Contact Page */
-    #contact_form p {
-        font-size: 2rem;
-    }
-
-    #contact_form h2 {
-        font-size: 4rem;
-        margin-bottom: 10px;
-    }
-
-    #contact_form .text-input {
-        width: 100%;
-        height: 30px;
-        border: 2px solid white;
-        margin-bottom: 15px;
-    }
-
-    #contact_form .submitBtn {
-        font-size: 2rem;
-        border: none;
-        width: 150px;
-        height: 50px;
     }
 }
+
+/* large devices (laptop and larger (992px )*/
+@media screen and (min-width: 992px) {}
