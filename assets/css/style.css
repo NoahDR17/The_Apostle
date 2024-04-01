@@ -369,9 +369,13 @@ footer {
     width: 100px;
     height: 50px;
     border-radius: 25px;
-    font-size: 1.15rem;
     border-style: none;
+}
+#contactBtn a {
+    font-size: 2rem;
     font-family: "Times New Roman", Times, serif;
+    text-decoration: none;
+    color: #032b22;
 }
 
 
