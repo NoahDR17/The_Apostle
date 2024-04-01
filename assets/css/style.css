@@ -372,7 +372,7 @@ footer {
     border-style: none;
 }
 #contactBtn a {
-    font-size: 2rem;
+    font-size: 1.25rem;
     font-family: "Times New Roman", Times, serif;
     text-decoration: none;
     color: #032b22;
@@ -611,9 +611,13 @@ footer {
     #contactBtn {
         width: 200px;
         height: 100px;
-        font-size: 2rem;
     }
-
+    #contactBtn a {
+        font-size: 2rem;
+        font-family: "Times New Roman", Times, serif;
+        text-decoration: none;
+        color: #032b22;
+    }
     /* Social Media links */
     #socialLinks {
         padding: 10px 25px;
