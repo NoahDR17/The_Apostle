@@ -14,6 +14,7 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    background-color: #032b22;
 }
 
 header {
@@ -265,7 +266,7 @@ main {
 }
 
 .left h3 {
-    color: #40ffb5;
+    color: #ffafda;
     font-size: 2rem;
     font-family: "Times New Roman", Times, serif;
     margin-bottom: 10px;
@@ -282,7 +283,7 @@ main {
 }
 
 .right h3 {
-    color: #40ffb5;
+    color: #ffafda;
     font-size: 2rem;
     font-family: "Times New Roman", Times, serif;
     text-align: center;
