@@ -387,7 +387,6 @@ footer {
     flex-flow: row;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 15px;
     width: 100%;
     height: 100%;
 }
@@ -395,6 +394,7 @@ footer {
 #socialLinks i {
     font-size: 175%;
     color: white;
+    padding: 5px 25px;
 }
 
 /* Contact Page */
