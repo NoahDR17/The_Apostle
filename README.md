@@ -41,9 +41,15 @@ The Apostle is a website that informs users about the luxury spa and holiday res
 * About Us Section
     * This provides information about "The Apostle" to the user.
     * Includes an image which showcases the pool bar.
+    * The history section provides information on The Apostle's past, and how it came to be, this gives the resort more life and depth.
+    * following the history section we have more general information, Dining Experience, Activities and Excursions, Events and Celebrations, and Information about The Apostle's passion for environmental conservation. This works to give more "meat" to the website, making it seem more realistic.
 ![About-Us](docs/readme_media/about_us.jpg)
 ![Pool-bar](docs/readme_media/pool-bar.jpg)
+![Pool-bar](docs/readme_media/history.jpg)
+![Pool-bar](docs/readme_media/general-info.jpg)
+![Pool-bar](docs/readme_media/environment.jpg)
 
+    
 * Footer 
     * Contains all relavent contact/social information, including: location, social media, and a link to the contact page.
     * This allows users to take their interest further should they make the decision.
