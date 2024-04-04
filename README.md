@@ -11,7 +11,7 @@ The Apostle is a website that informs users about the luxury spa and holiday res
 * Navigation Menu 
     * Contains a link to the Home, About Us, Accommodations, and contact pages, and is responsive on all devices.
     * This allows users to easily navigate through the site.
-    * With screen sizes with a width below 768px, the navbar gains a dropdown icon to better accomodate the links on a smaller screen size.
+    * With screen sizes with a width below 768px, the navbar gains a dropdown icon to better accomodate the links on a smaller screen size, after clicking the drop down icon the navbar will display in a list below the icon, allowing the user to look at the links when they want to and not have to worry about it taking up space when not in use.
 
 ![Navbar](docs/readme_media/navbar.jpg)
 ![Navbar](docs/readme_media/navbar-toggle.jpg)
@@ -35,7 +35,7 @@ The Apostle is a website that informs users about the luxury spa and holiday res
 
 * Background image
     * Immediately sets the tone for the website, creating a visually aesthetic and welcoming first impression.
-    * sets the baseline for the colours that will be used throughout the site.
+    * sets the baseline for the colours that will be used throughout the rest of the site.
 ![Background-Image](docs/readme_media/background.jpg)
 
 * About Us Section
@@ -49,11 +49,10 @@ The Apostle is a website that informs users about the luxury spa and holiday res
 ![Pool-bar](docs/readme_media/general-info.jpg)
 ![Pool-bar](docs/readme_media/environment.jpg)
 
-    
 * Footer 
     * Contains all relavent contact/social information, including: location, social media, and a link to the contact page.
     * This allows users to take their interest further should they make the decision.
-    * this footer is not displayed on the contact page, the 404 page, or the form recieved page, as it is not necessary implementation for those sections, and takes up space.
+    * This footer is not displayed on the contact page, the 404 page, or the form recieved page, as it is not necessary implementation for those sections, and takes up space.
 ![Footer](docs/readme_media/footer.jpg)
 
 ### Accommodations Page
@@ -61,14 +60,44 @@ The Apostle is a website that informs users about the luxury spa and holiday res
     * Deluxe Suite - Sea Suite - Family Suite 
 ![Suites](docs/readme_media/suites.jpg)
 * The Family Suite 
-    * Giving more depth to the Family suite will work to further entice and convince users that this resort is a good place to take their family. i chose the family suite for this over the other types because typically parents will take more consideration and time in researching where to take their children.
+    * Giving more depth to the Family suite will work to further entice and convince users that this resort is a good place to take their family. I chose the family suite for this over the other types because typically parents will take more consideration and time in researching where to take their children.
 ![Family-Suite](docs/readme_media/family-suite.jpg)
 ![Family-Suite](docs/readme_media/decor-facilities.jpg)
 * Footer 
     * Contains all relavent contact/social information, including: location, social media, and a link to the contact page.
     * This allows users to take their interest further should they make the decision.
-    * this footer is not displayed on the contact page, the 404 page, or the form recieved page, as it is not necessary implementation for those sections, and takes up space.
+    * This footer is not displayed on the contact page, the 404 page, or the form recieved page, as it is not necessary implementation for those sections, and takes up space.
 ![Footer](docs/readme_media/footer.jpg)
+
+### Contact page 
+* The Contact Form 
+    * The form will be utilised by users to contact the resort for more information regarding booking availibility, prices, dates, and any other general questions they may have. 
+    * There is a link to the contact page in the navbar, and also in the footer, meaning for users who are returning to the website after making their decision, they can use the link at the top without having to scroll all the way to the bottom, and anyone who has just reached the end of the website will next see an option reminding them that they can get in contact, which continues the flow of the website.    
+![Contact-Page](docs/readme_media/contact-page.jpg)
+![Footer](docs/readme_media/contact-nav.jpg)
+![Footer](docs/readme_media/contact-btn.jpg)
+
+* Inside the form contain the following prompts: 
+    * First Name
+    * Last Name
+    * Email Address
+    * Message 
+    * All must be filled out in order for the form to send, otherwise the user will recieve a prompt asking them to complete whichever section they had missed out. 
+![Form-Requirement](docs/readme_media/form-requirement.jpg)
+### Form Recieved page 
+* Submitting the form 
+    * After submitting the filled out form the User is directed to the Form Recieved page where they will be thanked, and assured that a reply will be dispatched soon. 
+    * The User will also have the option to return back to the website in the navbar.
+    * If the link doesnt work, the user will instead be be directed to the 404 page, in which they will be informed an error has occured, given the opportunity to return back to the main webpage, and also advised to try again later.
+![Form-Recieved](docs/readme_media/form-recieved.jpg)
+![Return](docs/readme_media/return.jpg)
+![404](docs/readme_media/404.jpg)
+
+
+
+
+
+
 ## Existing Features
 
 ## Technologies Used 
