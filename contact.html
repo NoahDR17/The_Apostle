@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- meta tags for search engines -->
+    <meta name="author" content="Noah Davis Reynolds">
+    <meta name="description" content="The Apostle. luxury resort and spa. vacation. Greece">
+    <meta name="keywords" content="The Apostle, holiday, vacation, luxury, spa, Greece, beach">
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Title -->
+    <title>Contact</title>
+</head>
+
+<body>
+ <!-- navbar -->
+ <header>
+        <input type="checkbox" name="nav-dropdown" id="nav-dropdown">
+        <label for="nav-dropdown" class="dropdown-label" id="dropdown-label" aria-label="Dropdown navbar toggle">
+            <span class=”sr-only”>   </span>
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <nav class='navbar'>
+            <ul id="links">
+                <li><a href="./index.html">Return</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+</header>
+    <main id="contact_page">
+        <section id="contact">
+            <form id="contact_form" action="form-sent.html">
+                <h1>Contact Us</h1> 
+                <label for="first-name">First Name:</label>
+                <input type="text" name="first-name" class="text-input" id="first-name" aria-label="First name input" required>
+                <br>
+                <label for="last-name">Last Name:</label>
+                <input type="text" name="Last-name" class="text-input" id="last-name" aria-label="Last name input" required>
+                <br>
+                <label for="email">Email Address:</label>
+                <input type="email" name="email" class="text-input" id="email" aria-label="Email Address input" required>
+                <br>
+                <label for="message">message:</label>
+                <textarea name="message" id="message" aria-label="write you message here input" required></textarea>
+                <br>
+                <button type="submit" class="submitBtn" aria-label="submit button">Submit</button>
+            </form>
+
+
+        </section>
+    </main>
+        <!-- Font Awesome kit -->
+        <script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
