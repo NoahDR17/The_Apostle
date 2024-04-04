@@ -884,7 +884,7 @@ footer {
         font-family: 'Times New Roman', Times, serif;
         color: #053f33;
         margin: 15px;
-
+    }
         /* Social Media links */
         #socialLinks {
             padding: 10px 25px;
@@ -895,7 +895,7 @@ footer {
             font-size: 200%;
         }
     }
-}
+
 
     /* large devices (laptop and larger (992px )*/
     @media screen and (min-width: 992px) {
