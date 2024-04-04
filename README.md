@@ -127,13 +127,71 @@ The Apostle is a website that informs users about the luxury spa and holiday res
     * Interactive Google maps section.
 
     * JavaScript code, to view booking slots and availability.
-    
+
     * Improved Form, using JavaScript.
     
+## Design 
+
+### Wireframes 
 
 ## Technologies Used 
 
+* Visual Studio Code
+    * All development done through Visual Studio Code IDE 
+* GitHub 
+    * All files hosted and stored on GitHub, deployed through Git Pages.
+* Git 
+    * Used to commit and push code from Visual studio Code IDE to GitHub
+* HTML 
+    * Used throughout the development of the website
+* CSS 
+    * Used throughtout the development of the website in an external file
+* Font Awesome 
+    * Icons used throughout the website such as the social media icons where obtained from https://fontawesome.com/
+* Google Fonts  
+    * Fonts used throughout the website where obtained from https://fonts.google.com/
+* Favicon.io
+    * Favicon used in website, imported from https://favicon.io/
+* Figma 
+    * Wireframes were made through https://www.figma.com/
+* Pexels 
+    * Images sourced from https://www.pexels.com/
+
 ## Testing 
+### Responsiveness 
+All pages have been tested for responsivesness from 320px in Chrome developer tools, and through https://www.websiteplanet.com/webtools/responsive-checker/ and are responsive as defined in [WCAG 2.1 Reflow criteria for responsive design](https://www.w3.org/WAI/WCAG21/Understanding/reflow.html)
+
+* Steps to test 
+    * Navigate to [The Apostle](https://noahdr17.github.io/The_Apostle/)
+    * Open Developer tools 
+    * Set width to 320px 
+    * Increase width incrementally while checking for unresponsiveness
+
+* Expected outcome: 
+    * Website is responsive across all screen sizes.
+    * Images are not stretched or pixelated.
+    * There is no horizontal scroll.
+    * There is no overlap.
+
+* Outcome: 
+    * Website behaved as expected, except for slight overlap of the navbar over the About us header.
+![Overlap](docs/readme_media/overlap.jpg)
+
+* Fix
+    * Change padding top from 25px to 50px, for h2 element in About section.
+![Overlap Fix](docs/readme_media/overlap-fix.jpg)
+
+* Test Again
+    * As expected, no more deviencies from the Expected outcome after fixing about h2 overlap. 
+
+Website was also tested using Iphone SE, Ipad mini, air and pro, macbook air, and Galaxy fold.
+
+### Accessibility 
+To test for accessibility i utilised the site, [Wave Accessibility](https://wave.webaim.org/) 
+
+* The testing was carried out to ensure these criteria are met: 
+    * colour contrast meets the specified criterea following the [WCAG 2.1 Contrast Guidelines](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html)
+    * 
 
 ## Deployment
 
