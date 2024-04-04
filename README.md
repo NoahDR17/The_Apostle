@@ -42,7 +42,7 @@ The Apostle is a website that informs users about the luxury spa and holiday res
     * This provides information about "The Apostle" to the user.
     * Includes an image which showcases the pool bar.
     * The history section provides information on The Apostle's past, and how it came to be, this gives the resort more life and depth.
-    * following the history section we have more general information, Dining Experience, Activities and Excursions, Events and Celebrations, and Information about The Apostle's passion for environmental conservation. This works to give more "meat" to the website, making it seem more realistic.
+    * Following the history section we have more general information, Dining Experience, Activities and Excursions, Events and Celebrations, and Information about The Apostle's passion for environmental conservation. This works to give more "meat" to the website, making it seem more realistic.
 ![About-Us](docs/readme_media/about_us.jpg)
 ![Pool-bar](docs/readme_media/pool-bar.jpg)
 ![Pool-bar](docs/readme_media/history.jpg)
@@ -53,9 +53,22 @@ The Apostle is a website that informs users about the luxury spa and holiday res
 * Footer 
     * Contains all relavent contact/social information, including: location, social media, and a link to the contact page.
     * This allows users to take their interest further should they make the decision.
+    * this footer is not displayed on the contact page, the 404 page, or the form recieved page, as it is not necessary implementation for those sections, and takes up space.
 ![Footer](docs/readme_media/footer.jpg)
 
-
+### Accommodations Page
+* Provides information about the accommodation available at The Apostle.
+    * Deluxe Suite - Sea Suite - Family Suite 
+![Suites](docs/readme_media/suites.jpg)
+* The Family Suite 
+    * Giving more depth to the Family suite will work to further entice and convince users that this resort is a good place to take their family. i chose the family suite for this over the other types because typically parents will take more consideration and time in researching where to take their children.
+![Family-Suite](docs/readme_media/family-suite.jpg)
+![Family-Suite](docs/readme_media/decor-facilities.jpg)
+* Footer 
+    * Contains all relavent contact/social information, including: location, social media, and a link to the contact page.
+    * This allows users to take their interest further should they make the decision.
+    * this footer is not displayed on the contact page, the 404 page, or the form recieved page, as it is not necessary implementation for those sections, and takes up space.
+![Footer](docs/readme_media/footer.jpg)
 ## Existing Features
 
 ## Technologies Used 

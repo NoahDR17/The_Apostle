@@ -811,16 +811,21 @@ footer {
         width: 100%;
     }
 
-    #container-1, #container-2, img {
+    #container-1,
+    #container-2,
+    img {
         width: 50%;
         padding-top: 15px;
     }
-    #container-2, img {
+
+    #container-2,
+    img {
         width: 48%;
     }
+
     #pg3 h3 {
         font-size: 2rem;
-=    }
+    }
 
     #pg3 p {
         font-size: 1.5rem;
