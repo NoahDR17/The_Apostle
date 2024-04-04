@@ -189,7 +189,8 @@ main {
     font-size: 350%;
     font-family: "Times New Roman", Times, serif;
     text-align: center;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
+    padding-top: 25px;
 }
 
 #content img {
