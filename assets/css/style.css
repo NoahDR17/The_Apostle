@@ -147,7 +147,7 @@ main {
     height: 90vh;
 }
 
-#home-txt h2 {
+#home-txt h1 {
     color: #ffafda;
     font-size: 350%;
     font-weight: 700;
@@ -156,7 +156,7 @@ main {
 }
 
 #home-txt #p1 {
-    font-size: 125%;
+    font-size: 1rem;
     color: white;
     letter-spacing: 5px;
     font-family: "Courier New", Courier, monospace;
@@ -165,7 +165,7 @@ main {
 
 #home-txt #p2 {
     margin-top: 10px;
-    font-size: 125%;
+    font-size: 1rem;
     color: white;
     letter-spacing: 2px;
     font-family: "Courier New", Courier, monospace;
@@ -652,8 +652,8 @@ footer {
     }
 
     /* Home */
-    #home-txt h2 {
-        font-size: 550%;
+    #home-txt h1 {
+        font-size: 5.5rem;
     }
 
     #home-txt #p1 {
