@@ -314,7 +314,7 @@ main {
 }
 
 /* Accomodations Page */
-#accomodations {
+#accommodations {
     display: flex;
     flex-direction: column;
     align-items: center;
