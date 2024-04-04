@@ -198,8 +198,95 @@ main {
     padding: 25px;
 }
 
+#history {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    flex-grow: 1;
+    width: 100%;
+}
+#history h3 {
+    color: #40ffb5;
+    font-size: 2rem;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    margin-bottom: 15px;
+    padding-top: 15px;
+}
+#history p {
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0 15px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+#imformation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    flex-wrap: wrap;
+    flex-grow: 1;
+    width: 100%;
+}
+#information h3 {
+    margin-top: 25px;
+}
+.left {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 15px; 
 
-/* Accomodations section */
+}
+.right {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 15px; 
+
+}
+.left h3 {
+    color: #40ffb5;
+    font-size: 2rem;
+    font-family: "Times New Roman", Times, serif;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+.left p {
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.right h3 { 
+    color: #40ffb5;
+    font-size: 2rem;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.right  p {
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+}
+/* Accomodations Page */
 #accomodations {
     display: flex;
     flex-direction: column;
@@ -549,6 +636,81 @@ footer {
         width: 75%;
     }
 
+
+#history {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    width: 100%;
+}
+#history h3 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 15px;
+    padding-top: 15px;
+}
+#history p {
+    font-size: 25px;
+    padding: 0 15px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+#imformation {
+    flex-direction: column; 
+    flex-wrap: wrap;
+    flex-grow: 1;
+    width: 100%;
+}
+.left {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 25px; 
+
+}
+.right {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 25px; 
+}
+.left h3 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    text-align: left;
+    width: 100%;
+    padding-top: 25px;
+
+}
+.left p {
+    font-size: 25px;
+    font-weight: 500;
+    text-align: left;
+    padding-right: 50px;
+
+}
+
+.right h3 { 
+    font-size: 2.5rem;
+    text-align: right;
+    margin-bottom: 10px;
+    width: 100%;
+    padding-top: 25px;
+
+}
+.right  p {
+    font-size: 25px;
+    text-align: right;
+    padding-left: 50px;
+
+}
     /* Accomodations section */
     #accomodations {
         display: flex;
