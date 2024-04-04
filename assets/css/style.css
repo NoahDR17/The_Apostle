@@ -36,11 +36,12 @@ header a {
     font-family: "Courier New", Courier, monospace;
 }
 
-nav{
+nav {
     display: none;
     left: 0;
     width: 100%;
 }
+
 .navbar ul {
     list-style-type: none;
     display: flex;
@@ -52,6 +53,7 @@ nav{
     background-color: #032b22;
     width: 100%;
 }
+
 li {
     margin-bottom: 5px;
 }
@@ -208,6 +210,7 @@ main {
     flex-grow: 1;
     width: 100%;
 }
+
 #history h3 {
     color: #40ffb5;
     font-size: 2rem;
@@ -216,6 +219,7 @@ main {
     margin-bottom: 15px;
     padding-top: 15px;
 }
+
 #history p {
     color: white;
     font-family: "Courier New", Courier, monospace;
@@ -226,36 +230,41 @@ main {
     text-align: center;
     margin-bottom: 35px;
 }
+
 #imformation {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column; 
+    flex-direction: column;
     flex-wrap: wrap;
     flex-grow: 1;
     width: 100%;
 }
+
 #information h3 {
     margin-top: 25px;
 }
+
 .left {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 0 15px; 
+    padding: 0 15px;
 
 }
+
 .right {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 0 15px; 
+    padding: 0 15px;
 
 }
+
 .left h3 {
     color: #40ffb5;
     font-size: 2rem;
@@ -264,6 +273,7 @@ main {
     text-align: center;
 
 }
+
 .left p {
     color: white;
     font-family: "Courier New", Courier, monospace;
@@ -272,20 +282,22 @@ main {
     text-align: center;
 }
 
-.right h3 { 
+.right h3 {
     color: #40ffb5;
     font-size: 2rem;
     font-family: "Times New Roman", Times, serif;
     text-align: center;
     margin-bottom: 10px;
 }
-.right  p {
+
+.right p {
     color: white;
     font-family: "Courier New", Courier, monospace;
     font-size: 15px;
     font-weight: 500;
     text-align: center;
 }
+
 /* Accomodations Page */
 #accomodations {
     display: flex;
@@ -298,7 +310,12 @@ main {
 
 #pg1 {
     background-color: #ffafda;
-    width: 100vw;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
 }
 
 #pg1 h2 {
@@ -306,7 +323,7 @@ main {
     text-align: center;
     font-size: 2.5rem;
     font-family: "Times New Roman", Times, serif;
-    margin: 20px;
+    margin-top: 50px;
 }
 
 #pg1 #suites {
@@ -368,7 +385,7 @@ main {
     padding: 15px;
 }
 
-#pg2-container h2 {
+#pg2 h2 {
     color: #032b22;
     font-size: 250%;
     margin-bottom: 15px;
@@ -458,6 +475,7 @@ footer {
     border-radius: 25px;
     border-style: none;
 }
+
 #contactBtn a {
     font-size: 1.25rem;
     font-family: "Times New Roman", Times, serif;
@@ -564,6 +582,7 @@ footer {
     .dropdown-label {
         display: none;
     }
+
     .navbar ul {
         list-style-type: none;
         display: flex;
@@ -575,6 +594,7 @@ footer {
         background-color: #032b22;
         width: 100%;
     }
+
     header {
         position: fixed;
         top: 0;
@@ -637,95 +657,119 @@ footer {
     }
 
 
-#history {
-    display: flex;
-    align-self: center;
-    justify-content: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    flex-grow: 1;
-    width: 100%;
-}
-#history h3 {
-    font-size: 3rem;
-    text-align: center;
-    margin-bottom: 15px;
-    padding-top: 15px;
-}
-#history p {
-    font-size: 25px;
-    padding: 0 15px;
-    text-align: center;
-    margin-bottom: 35px;
-}
-#imformation {
-    flex-direction: column; 
-    flex-wrap: wrap;
-    flex-grow: 1;
-    width: 100%;
-}
-.left {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 0 25px; 
-
-}
-.right {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 0 25px; 
-}
-.left h3 {
-    font-size: 2.5rem;
-    margin-bottom: 10px;
-    text-align: left;
-    width: 100%;
-    padding-top: 25px;
-
-}
-.left p {
-    font-size: 25px;
-    font-weight: 500;
-    text-align: left;
-    padding-right: 50px;
-
-}
-
-.right h3 { 
-    font-size: 2.5rem;
-    text-align: right;
-    margin-bottom: 10px;
-    width: 100%;
-    padding-top: 25px;
-
-}
-.right  p {
-    font-size: 25px;
-    text-align: right;
-    padding-left: 50px;
-
-}
-    /* Accomodations section */
-    #accomodations {
+    #history {
         display: flex;
+        align-self: center;
+        justify-content: center;
         flex-direction: column;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        width: 100%;
+    }
+
+    #history h3 {
+        font-size: 3rem;
+        text-align: center;
+        margin-bottom: 15px;
+        padding-top: 15px;
+    }
+
+    #history p {
+        font-size: 25px;
+        padding: 0 15px;
+        text-align: center;
+        margin-bottom: 35px;
+    }
+
+    #imformation {
+        flex-direction: column;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        width: 100%;
+    }
+
+    .left {
+        width: 100%;
+        display: flex;
         align-items: center;
         justify-content: center;
+        flex-direction: column;
+        padding: 0 25px;
+
     }
+
+    .right {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0 25px;
+    }
+
+    .left h3 {
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+        text-align: left;
+        width: 100%;
+        padding-top: 25px;
+
+    }
+
+    .left p {
+        font-size: 25px;
+        font-weight: 500;
+        text-align: left;
+        padding-right: 50px;
+
+    }
+
+    .right h3 {
+        font-size: 2.5rem;
+        text-align: right;
+        margin-bottom: 10px;
+        width: 100%;
+        padding-top: 25px;
+
+    }
+
+    .right p {
+        font-size: 25px;
+        text-align: right;
+        padding-left: 50px;
+
+    }
+
+    /* Accomodations Page *
 
     /* Page 1 */
-    #pg1 h2 {
-        font-size: 3.5rem;
+    #pg1 #suites {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-flow: row;
+        flex-grow: 1;
+        width: 100%;
+
     }
 
-    #suites img {
-        width: 65%;
+    #pg1 h2 {
+        font-size: 4rem;
+        margin-bottom: 25px;
+    }
+
+
+    #s1,
+    #s2,
+    #s3 {
+        margin: 0 10px;
+    }
+
+    #s1,
+    #s2,
+    #s3,
+    img {
+        width: 70%;
         border-radius: 10px;
     }
 
@@ -734,30 +778,52 @@ footer {
     }
 
     #suites p {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
     }
 
     /* Page 2 */
+    #pg2 h2 {
+        font-size: 4rem;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
     #pg2-container {
+        flex-flow: row;
+        flex-grow: 1;
+        padding: 0 50px;
+    }
+
+    #pg2-container img {
+        width: 40%;
         margin-bottom: 25px;
     }
 
     #pg2-container p {
-        font-size: 175%;
+        font-size: 125%;
     }
 
-    #pg2-container h2 {
-        font-size: 375%;
-    }
+
 
     /* Page 3 */
 
-    #pg3 h3 {
-        font-size: 2.5rem;
+    #pg3-container {
+        width: 100%;
     }
 
+    #container-1, #container-2, img {
+        width: 50%;
+        padding-top: 15px;
+    }
+    #container-2, img {
+        width: 48%;
+    }
+    #pg3 h3 {
+        font-size: 2rem;
+=    }
+
     #pg3 p {
-        font-size: 1.75rem;
+        font-size: 1.5rem;
     }
 
     /* Footer */
@@ -774,12 +840,14 @@ footer {
         width: 200px;
         height: 100px;
     }
+
     #contactBtn a {
         font-size: 2rem;
         font-family: "Times New Roman", Times, serif;
         text-decoration: none;
         color: #032b22;
     }
+
     /* Social Media links */
     #socialLinks {
         padding: 10px 25px;
@@ -828,12 +896,12 @@ footer {
     }
 
     #suites h3 {
-        font-size: 2.75rem;
+        font-size: 2.5rem;
         margin-bottom: 25px;
     }
 
     #suites p {
-        font-size: 1.75rem;
+        font-size: 1.5rem;
         letter-spacing: 2px;
     }
 
