@@ -73,7 +73,7 @@ li {
 #nav-dropdown {
     display: none;
 }
-/* -------------------------------------------------------------------------------------------------------*/
+
 /* Styling to fill the label element with content, but not have anything display on screen,
 this fixes the empty label error */
 .sr-only {
@@ -89,8 +89,7 @@ this fixes the empty label error */
     width: 1px;
     white-space: nowrap;
 }
-/* Seperating code sourced externally */
-/* -------------------------------------------------------------------------------------------------------*/
+
 #error-page {
     width: 100%;
     height: 100%;
@@ -886,90 +885,91 @@ footer {
         color: #053f33;
         margin: 15px;
     }
-        /* Social Media links */
-        #socialLinks {
-            padding: 10px 25px;
-            margin-top: 15px;
-        }
 
-        #socialLinks i {
-            font-size: 200%;
-        }
+    /* Social Media links */
+    #socialLinks {
+        padding: 10px 25px;
+        margin-top: 15px;
     }
 
-
-    /* large devices (laptop and larger (992px )*/
-    @media screen and (min-width: 992px) {
-
-        /* About */
-        #content {
-            flex-direction: row;
-            padding: 25px;
-
-        }
-
-        #content p {
-            font-size: 28px;
-            width: 75%;
-        }
-
-        #about h2 {
-            font-size: 450%;
-            margin-bottom: 25px;
-        }
-
-        #content img {
-            width: 50%;
-        }
-
-        /* Page 1 */
-        #pg1 h1 {
-            font-size: 4rem;
-            letter-spacing: 1px;
-            margin-bottom: 50px;
-        }
-
-        #suites img {
-            width: 80%;
-            border-radius: 5px;
-        }
-
-        #suites h3 {
-            font-size: 2.5rem;
-            margin-bottom: 25px;
-        }
-
-        #suites p {
-            font-size: 1.5rem;
-            letter-spacing: 2px;
-        }
-
-        /* Page 2 */
-        #pg2-container {
-            margin-bottom: 25px;
-        }
-
-        #pg2-container h2 {
-            font-size: 4.5rem;
-        }
-
-        #pg2-container p {
-            font-size: 175%;
-            width: 90%;
-        }
-
-        #pg2-container img {
-            width: 60%;
-        }
-
-        /* Page 3 */
-        #pg3 h3 {
-            font-size: 2.5rem;
-        }
-
-        /* Contact Page */
-
-        #contact {
-            font-size: 2rem;
-        }
+    #socialLinks i {
+        font-size: 200%;
     }
+}
+
+
+/* large devices (laptop and larger (992px )*/
+@media screen and (min-width: 992px) {
+
+    /* About */
+    #content {
+        flex-direction: row;
+        padding: 25px;
+
+    }
+
+    #content p {
+        font-size: 28px;
+        width: 75%;
+    }
+
+    #about h2 {
+        font-size: 450%;
+        margin-bottom: 25px;
+    }
+
+    #content img {
+        width: 50%;
+    }
+
+    /* Page 1 */
+    #pg1 h1 {
+        font-size: 4rem;
+        letter-spacing: 1px;
+        margin-bottom: 50px;
+    }
+
+    #suites img {
+        width: 80%;
+        border-radius: 5px;
+    }
+
+    #suites h3 {
+        font-size: 2.5rem;
+        margin-bottom: 25px;
+    }
+
+    #suites p {
+        font-size: 1.5rem;
+        letter-spacing: 2px;
+    }
+
+    /* Page 2 */
+    #pg2-container {
+        margin-bottom: 25px;
+    }
+
+    #pg2-container h2 {
+        font-size: 4.5rem;
+    }
+
+    #pg2-container p {
+        font-size: 175%;
+        width: 90%;
+    }
+
+    #pg2-container img {
+        width: 60%;
+    }
+
+    /* Page 3 */
+    #pg3 h3 {
+        font-size: 2.5rem;
+    }
+
+    /* Contact Page */
+
+    #contact {
+        font-size: 2rem;
+    }
+}
