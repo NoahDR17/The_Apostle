@@ -289,15 +289,13 @@ and upon successfully filling out the form and submitting, the user is then navi
 Each link worked as expected opening the link onto an external tab.
 
 ### Validator Testing 
-* HTML
+* HTML 
+    * Any errors shown in validator where fixed until code returned no more errors when passed through.
+[HTML](docs/readme_media/html-verification.jpg)
 
-
-
-
-
-
-
-
+* CSS 
+    * Any errors shown in validator where fixed until code returned no more errors when passed through.
+[CSS](docs/readme_media/css-verification.jpg)
 ## Deployment
 
 ## Credits 
