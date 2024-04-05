@@ -152,21 +152,21 @@ The Apostle is a website that informs users about the luxury spa and holiday res
 ## Design
 ### Wireframes
 * Home Page: 
-[Home-Wireframe](docs/readme_media/welcom-wireframe.jpg)
+![Home-Wireframe](docs/readme_media/welcom-wireframe.jpg)
 * About Section:
-[About-Wireframe](docs/readme_media/aboutus-wireframe.jpg)
+![About-Wireframe](docs/readme_media/aboutus-wireframe.jpg)
 * Accommodations section: 
-[Accommodations-Wireframe](docs/readme_media/accommodationspg1-wireframe.jpg)
-[Accommodations-Wireframe](docs/readme_media/accommodationspg2-wireframe.jpg)
-[Accommodations-Wireframe](docs/readme_media/accommodationspg3-wireframe.jpg)
+![Accommodations-Wireframe](docs/readme_media/accommodationspg1-wireframe.jpg)
+![Accommodations-Wireframe](docs/readme_media/accommodationspg2-wireframe.jpg)
+![Accommodations-Wireframe](docs/readme_media/accommodationspg3-wireframe.jpg)
 * Footer: 
-[Footer-Wireframe](docs/readme_media/footer-wireframe.jpg)
+![Footer-Wireframe](docs/readme_media/footer-wireframe.jpg)
 * Contact Page: 
-[Contact-Page-Wireframe](docs/readme_media/contactform-wireframe.jpg)
+![Contact-Page-Wireframe](docs/readme_media/contactform-wireframe.jpg)
 * Form Recieved Page: 
-[Form-Recieved-Page-Wireframe](docs/readme_media/form-recieved-wireframe.jpg)
+![Form-Recieved-Page-Wireframe](docs/readme_media/form-recieved-wireframe.jpg)
 * 404 Page: 
-[404-Page-Wireframe](docs/readme_media/error-wireframe.jpg)
+![404-Page-Wireframe](docs/readme_media/error-wireframe.jpg)
 
 
 
