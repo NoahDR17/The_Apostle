@@ -1,10 +1,20 @@
 # The_Apostle
 Portfolio Project One:
-The Apostle is a website that informs users about the luxury spa and holiday resort "The Apostle", it also aims to provide the users with a method to get in contact with the hotel for the purposes of booking a stay or getting more in depth information regarding the resort. View the live link [here](https://noahdr17.github.io/The_Apostle/)
+The Apostle is a website that informs users about the luxury spa and holiday resort "The Apostle", it  aims to provide the users with a method to get information and to get in contact with the hotel for the purposes of booking a stay or getting more in depth information regarding the resort. View the live link [here](https://noahdr17.github.io/The_Apostle/)
 
 ![Mockup](docs/readme_media/mockup.jpg)
 
-## UX
+## Project Goals:
+* Create a quality website adhering to industry standards and best practises.
+* Create something that not only is functional and well made, but also visually appealing and utilizes smart design thinking to capture, maintain and lead the users attention throughout the whole website.
+* Gain experience creating something without any external help/guides.
+
+## Target Audience
+* The Apostle resort welcomes anyone looking for a vacation spent in luxury, boasting a wide array of opportunities and activities for everyone. The website will cater more specifically to adults, as its main function will be to give information and a method to get in contact with the resort, which is something that only adults will be doing. 
+
+## Theme 
+* The theme of the website will be positive, friendly and luxurious, following a fresh, and natural colour scheme with colours contrasting with relation to importance, this is a method used to draw users attention, for example the h1 element on the landing page is a soft pink, which contrasts well with the different shades of green, white, this will draw the eye of the user, without it being an eye sore. 
+![Colour Contrast](docs/readme_media/colour-contrast.jpg)
 
 ## Features
 ### Global Features: 
