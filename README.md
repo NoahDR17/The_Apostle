@@ -3,7 +3,7 @@
 Portfolio Project One:
 The Apostle is a website that informs users about the luxury spa and holiday resort "The Apostle", it aims to provide the users with a method to get information and to get in contact with the hotel for the purposes of booking a stay or getting more in depth information regarding the resort. View the live link [here](https://noahdr17.github.io/The_Apostle/)
 
-![Mockup](docs/readme_media/mockup.jpg)
+![Mockup](docs/readme_media/mockup-website.jpg)
 
 ## Project Goals:
 
@@ -168,13 +168,6 @@ The Apostle is a website that informs users about the luxury spa and holiday res
 * 404 Page: 
 ![404-Page-Wireframe](docs/readme_media/error-wireframe.jpg)
 
-
-
-
-
-
-
-
 ## Technologies Used
 
 - Visual Studio Code
@@ -241,39 +234,39 @@ To test for accessibility i utilised the site, [Wave Accessibility](https://wave
   - All content is contained within relavent semantic markup.
   - Correct language attribute has been set for the html pages.
 
-Error 1: Empty label, found in [Wave Accessibility](https://wave.webaim.org/)
+Error 1: Empty label, found in [Wave Accessibility](https://wave.webaim.org/)<br>
 Fix: Following the instructions from [Accessibility Tips and Tricks](https://medium.com/web-accessibility-tips-tricks-and-techniques-for/web-accessibility-tip-visually-hidden-text-for-screen-readers-a52d954d9711#:~:text=sr%2Donly%20declaration%20block%20does,invisible%20to%20the%20human%20eye) Added the required HTML and CSS to add element into the label which was not visible but removed the empty label error which occured when testing.
 
 ### Home Page Accessibility Testing
 
-Warning 1: "Suspicious alternative text", the image in the about us section had an alt text of "image of pool", this is not specific enough to get a proper idea of what the image is, it also has unnecessary text describing it as an image, when the screen reader already knows that.
+Warning 1: "Suspicious alternative text", the image in the about us section had an alt text of "image of pool", this is not specific enough to get a proper idea of what the image is, it also has unnecessary text describing it as an image, when the screen reader already knows that.<br>
 Fix: Add more detail to the alt description
 ![Alt-Text](docs/readme_media/alt-txt.jpg)
 
-Warning 2: "Missing first level heading" in the home section, there isnt a h1 heading.
+Warning 2: "Missing first level heading" in the home section, there isnt a h1 heading. <br>
 Fix: Change the h2 element "The Apostle", into a h1 element.
 ![Alt-Text](docs/readme_media/header.jpg)
 
 Warning 3: "2x possible headings" there are two paragraph elements that appear to be a heading but arent a heading.
-![Alt-Text](docs/readme_media/header.jpg)
+![Alt-Text](docs/readme_media/header.jpg)<br>
 Fix: Change those paragraph elements into h3 elements, however i have chose not to implement those changes since i have specifically styled it so that the h1 element is between the two paragraph elements as it follows the visual style i want for the page.
 
 Warning 4: "redundant link" there are two elements in the index.html file that link to the contact page,
-this means the screen reader will read the link out twice.
+this means the screen reader will read the link out twice. <br> 
 Fix: i have chose not to fix this as i specifically placed two links in two draw attention and remind the user about the contact page, as this would create a higher chance the user will follow the link.
 ![Alt-Text](docs/readme_media/contact-link.jpg)
 
 ### Accommodations Page Accessibility Testing
 
-Warning 1: "Missing 1st level heading" Same with the warning in the home page, there isnt a h1 element for the Accommodations page.
+Warning 1: "Missing 1st level heading" Same with the warning in the home page, there isnt a h1 element for the Accommodations page. <br>
 Fix: change the Accommodations h2 into a h1.
 
-Warning 2: "redundant link" there are two elements in the accommodations.html file that link to the contact page, this means the screen reader will read the link out twice.
+Warning 2: "redundant link" there are two elements in the accommodations.html file that link to the contact page, this means the screen reader will read the link out twice. <br>
 Fix: i have chose not to fix this as i specifically placed two links in two draw attention and remind the user about the contact page, as this would create a higher chance the user will follow the link.
 
 ### Contact Page Accessibility Testing
 
-Warning 1: "Missing 1st level heading" Same with the warning in the other pages, there isnt a h1 element for the contact page.
+Warning 1: "Missing 1st level heading" Same with the warning in the other pages, there isnt a h1 element for the contact page. <br>
 Fix: change the Contact h2 into a h1.
 
 ### Form Recieved Page Accessibility Testing
@@ -332,10 +325,10 @@ Each link worked as expected opening the link onto an external tab.
 ### Validator Testing
 
 - HTML \* Any errors shown in validator where fixed until code returned no more errors when passed through.
-  [HTML](docs/readme_media/html-verification.jpg)
+  ![HTML](docs/readme_media/html-verification.jpg)
 
 - CSS \* Any errors shown in validator where fixed until code returned no more errors when passed through.
-  [CSS](docs/readme_media/css-verification.jpg)
+  ![CSS](docs/readme_media/css-verification.jpg)
 
 ## Deployment
 
@@ -361,7 +354,7 @@ Pushed to a GitHub repository called "The_Apostle"
 
 ## Credits
 
-    Code to fix Empty label error sourced from - [Accessibility Tips and Tricks](https://medium.com/web-accessibility-tips-tricks-and-techniques-for/web-accessibility-tip-visually-hidden-text-for-screen-readers-a52d954d9711#:~:text=sr%2Donly%20declaration%20block%20does,invisible%20to%20the%20human%20eye)
+Code to fix Empty label error sourced from - [Accessibility Tips and Tricks](https://medium.com/web-accessibility-tips-tricks-and-techniques-for/web-accessibility-tip-visually-hidden-text-for-screen-readers-a52d954d9711#:~:text=sr%2Donly%20declaration%20block%20does,invisible%20to%20the%20human%20eye)
 
 ### Content
 
@@ -369,4 +362,4 @@ All content with exception of those specified in the Credits section is owned an
 
 ### Media
 
-    Images sourced from [Pexels](https://www.pexels.com/)
+Images sourced from [Pexels](https://www.pexels.com/)
