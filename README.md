@@ -245,6 +245,54 @@ No warnings specific to this page
 ### 404 Page Accessibility Testing
 No warnings specific to this page
 
+## Functional Testing 
+
+* Navigation Bar
+    * Testing was done by clicking each nav link on each page and ensuring they navigated to the correct link.
+
+Expected Outcome:
+After clicking a link, the user should be correctly navigated to the location of the link with no errors occuring.
+
+Actual outcome: website behaved as expected, correctly navigating the user based on which link they clicked on.
+
+* Contact Form 
+    * The Contact Form was tested by first incorrectly attempting to fill it out and clicking the submit button, and then after by correctly filling it out once ensuring the form must be correctly filled out before form submittion becomes available.
+
+* Steps to test Contact Form: 
+    * Purposely incorrectly filling out the form.
+        * Navigate to the contact page.
+        * Attempt to submit the form with none of the inputs filled out.
+        * Ensure prompts pop up informing you of the form requirements, instead of submitting the empty form.
+        * Go down one by one filling each out and testing before moving onto the next.
+        * For the email input, attempt to fill the email out without putting in the "@" symbol, ensure the 
+        prompt appears reminding you of its necessity, and the requirements for the email.
+
+Now that the form is filled out correctly the next steps are submitting it and testing it takes you to the Form recieved page. 
+
+* Steps to test 
+    * Submit filled out form.
+    * User should be redirected to Form Recieved page.
+
+Expected Outcome: 
+Form only submits when all required inputs are correctly filled out, form successfully navigates to Form Recieved page, with no errors.
+
+Actual Outcome:
+Form behaved as expected, displaying requirement prompts for missed inputs or incorrectly filled out inputs. 
+and upon successfully filling out the form and submitting, the user is then navigated to the form recieved page with no errors. 
+
+* Social media icon links 
+    * Testing was carried out to ensure that you are navigated to an external page correctly depending on which link you clicked.
+
+* Steps to Take: 
+    * Click each link and test that they take you to the correct location, and that it opens the link onto an external tab, since it is an external link.
+
+Each link worked as expected opening the link onto an external tab.
+
+### Validator Testing 
+* HTML
+
+
+
 
 
 
