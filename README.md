@@ -33,32 +33,32 @@ The Apostle is a website that informs users about the luxury spa and holiday res
 ![Navbar-Dropdown](docs/readme_media/navbar-dropdown.jpg)
 
 - Favicon
-  _ Spans all pages of the website.
-  _ Allows users to easily distinguish the site among other tabs.
+  - Spans all pages of the website.
+  - Allows users to easily distinguish the site among other tabs.
   ![Favicon](docs/readme_media/favicon.jpg)
 
 - 404
-  _ The 404 page makes it easier for the user to return to the website.
-  _ Will display if the user utilises a broken link.
+  - The 404 page makes it easier for the user to return to the website.
+  - Will display if the user utilises a broken link.
   ![404](docs/readme_media/404.jpg)
 
 ### Landing Page
 
 - Layout
-  *Contains a small amount of text meant only to hook the attention of the reader and prompt them to scroll
-  *Avoids overwhelming the user with imformation as soon as they open the page.
+  - Contains a small amount of text meant only to hook the attention of the reader and prompt them to scroll
+  - Avoids overwhelming the user with imformation as soon as they open the page.
   ![Landing-Page](docs/readme_media/home.jpg)
 
 - Background image
-  _ Immediately sets the tone for the website, creating a visually aesthetic and welcoming first impression.
-  _ Sets the baseline for the colours that will be used throughout the rest of the site.
+  - Immediately sets the tone for the website, creating a visually aesthetic and welcoming first impression.
+  - Sets the baseline for the colours that will be used throughout the rest of the site.
   ![Background-Image](docs/readme_media/background.jpg)
 
 - About Us Section
-  _ This provides information about "The Apostle" to the user.
-  _ Includes an image which showcases the pool bar.
-  _ The history section provides information on The Apostle's past, and how it came to be, this gives the resort more life and depth.
-  _ Following the history section we have more general information, Dining Experience, Activities and Excursions, Events and Celebrations, and Information about The Apostle's passion for environmental conservation. This works to give more "meat" to the website, making it seem more realistic.
+  -  This provides information about "The Apostle" to the user.
+  -  Includes an image which showcases the pool bar.
+  -  The history section provides information on The Apostle's past, and how it came to be, this gives the resort more life and depth.
+  -  Following the history section we have more general information, Dining Experience, Activities and Excursions, Events and Celebrations, and Information about The Apostle's passion for environmental conservation. This works to give more "meat" to the website, making it seem more realistic.
   ![About-Us](docs/readme_media/about_us.jpg)
   ![Pool-bar](docs/readme_media/pool-bar.jpg)
   ![Histor](docs/readme_media/history.jpg)
@@ -66,8 +66,8 @@ The Apostle is a website that informs users about the luxury spa and holiday res
   ![Environmental-conservation](docs/readme_media/environment.jpg)
 
 - Footer
-  _ Contains all relavent contact/social information, including: location, social media, contact details, and a link to the contact page.
-  _ This allows users to take their interest further should they make the decision. \* This footer is not displayed on the contact page, the 404 page, or the form recieved page, as it is not necessary implementation for those sections, and takes up space.
+  -  Contains all relavent contact/social information, including: location, social media, contact details, and a link to the contact page.
+  -  This allows users to take their interest further should they make the decision. \* This footer is not displayed on the contact page, the 404 page, or the form recieved page, as it is not necessary implementation for those sections, and takes up space.
   ![Footer](docs/readme_media/footer.jpg)
 
 ### Accommodations Page
@@ -78,31 +78,33 @@ The Apostle is a website that informs users about the luxury spa and holiday res
   ![Family-Suite](docs/readme_media/family-suite.jpg)
   ![Family-Decor-facilities](docs/readme_media/decor-facilities.jpg)
 - Footer
-  _ Contains all relavent contact/social information, including: location, social media, contact details, and a link to the contact page.
-  _ This allows users to take their interest further should they make the decision. \* This footer is not displayed on the contact page, the 404 page, or the form recieved page, as it is not necessary implementation for those sections, and takes up space.
+  -  Contains all relavent contact/social information, including: location, social media, contact details, and a link to the contact page.
+  -  This allows users to take their interest further should they make the decision. \* This footer is not displayed on the contact page, the 404 page, or the form recieved page, as it is not necessary implementation for those sections, and takes up space.
   ![Footer](docs/readme_media/footer.jpg)
 
 ### Contact page
 
 - The Contact Form
-  _ The form will be utilised by users to contact the resort for more information regarding booking availibility, prices, dates, and any other general questions they may have.
-  _ There is a link to the contact page in the navbar, and also in the footer, meaning for users who are returning to the website after making their decision, they can use the link at the top without having to scroll all the way to the bottom, and anyone who has just reached the end of the website will next see an option reminding them that they can get in contact, which continues the flow of the website.  
+  - The form will be utilised by users to contact the resort for more information regarding booking availibility, prices, dates, and any other general questions they may have.
+  - There is a link to the contact page in the navbar, and also in the footer, meaning for users who are returning to the website after making their decision, they can use the link at the top without having to scroll all the way to the bottom, and anyone who has just reached the end of the website will next see an option reminding them that they can get in contact, which continues the flow of the website.  
   ![Contact-Page](docs/readme_media/contact-page.jpg)
   ![Contact-Navbar](docs/readme_media/contact-nav.jpg)
   ![Contact-button](docs/readme_media/contact-btn.jpg)
 
 - Inside the form contain the following prompts:
-  _ First Name
-  _ Last Name
-  _ Email Address
-  _ Message \* All must be filled out in order for the form to send, otherwise the user will recieve a prompt asking them to complete whichever section they had missed out.
+  - First Name
+  - Last Name
+  - Email Address
+  - Message
+All must be filled out in order for the form to send, otherwise the user will recieve a prompt asking them to complete whichever section they had missed out.
   ![Form-Requirement](docs/readme_media/form-requirement.jpg)
 
 ### Form Recieved page
 
 - Submitting the form
-  _ After submitting the filled out form the User is directed to the Form Recieved page where they will be thanked, and assured that a reply will be dispatched soon.
-  _ The User will also have the option to return back to the website in the navbar. \* If the link doesnt work, the user will instead be be directed to the 404 page, in which they will be informed an error has occured, given the opportunity to return back to the main webpage, and also advised to try again later.
+  - After submitting the filled out form the User is directed to the Form Recieved page where they will be thanked, and assured that a reply will be dispatched soon.
+  - The User will also have the option to return back to the website in the navbar. <br>
+  If the link doesnt work, the user will instead be be directed to the 404 page, in which they will be informed an error has occured, given the opportunity to return back to the main webpage, and also advised to try again later.
   ![Form-Recieved](docs/readme_media/form-recieved.jpg)
   ![404](docs/readme_media/404.jpg)
   ![Return](docs/readme_media/return.jpg)
@@ -210,13 +212,15 @@ All pages have been tested for responsivesness from 320px in Chrome developer to
   - There is no horizontal scroll.
   - There is no overlap.
 
-- Outcome: \* Website behaved as expected, except for slight overlap of the navbar over the About us header.
+- Outcome: <br>
+Website behaved as expected, except for slight overlap of the navbar over the About us header.
   ![Overlap](docs/readme_media/overlap.jpg)
 
-- Fix \* Change padding top from 25px to 50px, for h2 element in About section.
+- Fix: <br>
+Change padding top from 25px to 50px, for h2 element in About section.
   ![Overlap Fix](docs/readme_media/overlap-fix.jpg)
 
-- Test Again
+- Test Again:
   - As expected, no more deviancies from the Expected outcome after fixing the "About" h2 overlap.
 
 Website was also tested using Iphone SE, Ipad mini, air and pro, macbook air, and Galaxy fold.
@@ -239,33 +243,40 @@ Fix: Following the instructions from [Accessibility Tips and Tricks](https://med
 ### Home Page Accessibility Testing
 
 Warning 1: "Suspicious alternative text", The image in the about us section had an alt text of "image of pool", this is not specific enough to get a proper idea of what the image is, it also has unnecessary text describing it as an image, when the screen reader already knows that.<br>
+
 Fix: Add more detail to the alt description
 ![Alt-Text](docs/readme_media/alt-txt.jpg)
 
 Warning 2: "Missing first level heading" In the home section, there isnt a h1 heading. <br>
+
 Fix: Change the h2 element "The Apostle", into a h1 element.
 ![Alt-Text](docs/readme_media/header.jpg)
 
 Warning 3: "2x possible headings" There are two paragraph elements that appear to be a heading but arent a heading.
 ![Alt-Text](docs/readme_media/header.jpg)<br>
+
 Fix: Change those paragraph elements into h3 elements, however i have chose not to implement those changes since i have specifically styled it so that the h1 element is between the two paragraph elements as it follows the visual style i want for the page.
 
 Warning 4: "redundant link" There are two elements in the index.html file that link to the contact page,
 this means the screen reader will read the link out twice. <br> 
+
 Fix: i have chose not to fix this as i specifically placed two links in two draw attention and remind the user about the contact page, as this would create a higher chance the user will follow the link.
 ![Alt-Text](docs/readme_media/contact-link.jpg)
 
 ### Accommodations Page Accessibility Testing
 
 Warning 1: "Missing 1st level heading" Same with the warning in the home page, there isnt a h1 element for the Accommodations page. <br>
+
 Fix: change the Accommodations h2 into a h1.
 
 Warning 2: "redundant link" There are two elements in the accommodations.html file that link to the contact page, this means the screen reader will read the link out twice. <br>
+
 Fix: i have chose not to fix this as i specifically placed two links in two draw attention and remind the user about the contact page, as this would create a higher chance the user will follow the link.
 
 ### Contact Page Accessibility Testing
 
 Warning 1: "Missing 1st level heading" Same with the warning in the other pages, there isnt a h1 element for the contact page. <br>
+
 Fix: change the Contact h2 into a h1.
 
 ### Form Recieved Page Accessibility Testing
@@ -323,10 +334,12 @@ Each link worked as expected opening the link onto an external tab.
 
 ### Validator Testing
 
-- HTML \* Any errors shown in validator where fixed until code returned no more errors when passed through.
+- HTML: 
+    - Any errors shown in validator where fixed until code returned no more errors when passed through.
   ![HTML](docs/readme_media/html-verification.jpg)
 
-- CSS \* Any errors shown in validator where fixed until code returned no more errors when passed through.
+- CSS 
+    - Any errors shown in validator where fixed until code returned no more errors when passed through.
   ![CSS](docs/readme_media/css-verification.jpg)
 
 ## Deployment
