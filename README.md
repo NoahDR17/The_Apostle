@@ -357,8 +357,9 @@ Pushed to a GitHub repository called "The_Apostle"
 Code to fix Empty label error sourced from - [Accessibility Tips and Tricks](https://medium.com/web-accessibility-tips-tricks-and-techniques-for/web-accessibility-tip-visually-hidden-text-for-screen-readers-a52d954d9711#:~:text=sr%2Donly%20declaration%20block%20does,invisible%20to%20the%20human%20eye)
 
 ### Content
+Utilised chat gpt to generate text descriptions for about us information, accomodations suite decor and facilities information, The Apostle history information, general information in the index.html page.
 
-All content with exception of those specified in the Credits section is owned and created by Noah Davis Reynolds
+All other content with exception of those specified in the Credits section is owned and created by Noah Davis Reynolds
 
 ### Media
 
