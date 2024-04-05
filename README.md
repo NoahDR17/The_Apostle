@@ -1,7 +1,7 @@
 # The_Apostle
 
 Portfolio Project One:
-The Apostle is a website that informs users about the luxury spa and holiday resort "The Apostle", it aims to provide the users with a method to get information and to get in contact with the hotel for the purposes of booking a stay or getting more in depth information regarding the resort. View the live link [here](https://noahdr17.github.io/The_Apostle/)
+The Apostle is a website that informs users about the luxury spa and holiday resort "The Apostle". It aims to provide the user with a method to find information and to get in contact with the hotel for the purposes of booking a stay or getting more in depth information regarding the resort. View the live link [here](https://noahdr17.github.io/The_Apostle/)
 
 ![Mockup](docs/readme_media/mockup-website.jpg)
 
@@ -17,17 +17,16 @@ The Apostle is a website that informs users about the luxury spa and holiday res
 
 ## Theme
 
-- The theme of the website will be positive, friendly and luxurious, following a fresh, and natural colour scheme with colours contrasting with relation to importance, this is a method used to draw users attention, for example the h1 element on the landing page is a soft pink, which contrasts well with the different shades of green, white, this will draw the eye of the user, without it being an eye sore.
+- The theme of the website will be positive, friendly and luxurious, following a fresh, and natural colour scheme with colours contrasting with relation to importance, this is a method used to draw users attention, for example the h1 element on the landing page is a soft pink, which contrasts well with the different shades of green and white, this will draw the attention of the user, without it being an eye sore.
   ![Colour Contrast](docs/readme_media/colour-contrast.jpg)
 
 ## Features
-
 ### Global Features:
 
 - Navigation Menu
   - Contains a link to the Home, About Us, Accommodations, and contact pages, and is responsive on all devices.
   - This allows users to easily navigate through the site.
-  - With screen sizes with a width below 768px, the navbar gains a dropdown icon to better accomodate the links on a smaller screen size, after clicking the drop down icon the navbar will display in a list below the icon, allowing the user to look at the links when they want to and not have to worry about it taking up space when not in use.
+  - With screen sizes with a width below 768px, the navbar gains a dropdown icon to better accommodate the links on a smaller screen size, after clicking the drop down icon the navbar will display in a list below the icon, allowing the user to look at the links when they want to and not have to worry about it taking up space when not in use.
 
 ![Navbar](docs/readme_media/navbar.jpg)
 ![Navbar-Toggle](docs/readme_media/navbar-toggle.jpg)
@@ -52,7 +51,7 @@ The Apostle is a website that informs users about the luxury spa and holiday res
 
 - Background image
   _ Immediately sets the tone for the website, creating a visually aesthetic and welcoming first impression.
-  _ sets the baseline for the colours that will be used throughout the rest of the site.
+  _ Sets the baseline for the colours that will be used throughout the rest of the site.
   ![Background-Image](docs/readme_media/background.jpg)
 
 - About Us Section
@@ -119,7 +118,7 @@ The Apostle is a website that informs users about the luxury spa and holiday res
     - Navbar
     - About Us section, containing:
       - History section.
-      - general information section.
+      - General information section.
     - Footer, containing link to Contact form fillout page.
   - Accommodations Page:
     - Navbar
@@ -218,7 +217,7 @@ All pages have been tested for responsivesness from 320px in Chrome developer to
   ![Overlap Fix](docs/readme_media/overlap-fix.jpg)
 
 - Test Again
-  - As expected, no more deviencies from the Expected outcome after fixing about h2 overlap.
+  - As expected, no more deviancies from the Expected outcome after fixing the "About" h2 overlap.
 
 Website was also tested using Iphone SE, Ipad mini, air and pro, macbook air, and Galaxy fold.
 
@@ -239,19 +238,19 @@ Fix: Following the instructions from [Accessibility Tips and Tricks](https://med
 
 ### Home Page Accessibility Testing
 
-Warning 1: "Suspicious alternative text", the image in the about us section had an alt text of "image of pool", this is not specific enough to get a proper idea of what the image is, it also has unnecessary text describing it as an image, when the screen reader already knows that.<br>
+Warning 1: "Suspicious alternative text", The image in the about us section had an alt text of "image of pool", this is not specific enough to get a proper idea of what the image is, it also has unnecessary text describing it as an image, when the screen reader already knows that.<br>
 Fix: Add more detail to the alt description
 ![Alt-Text](docs/readme_media/alt-txt.jpg)
 
-Warning 2: "Missing first level heading" in the home section, there isnt a h1 heading. <br>
+Warning 2: "Missing first level heading" In the home section, there isnt a h1 heading. <br>
 Fix: Change the h2 element "The Apostle", into a h1 element.
 ![Alt-Text](docs/readme_media/header.jpg)
 
-Warning 3: "2x possible headings" there are two paragraph elements that appear to be a heading but arent a heading.
+Warning 3: "2x possible headings" There are two paragraph elements that appear to be a heading but arent a heading.
 ![Alt-Text](docs/readme_media/header.jpg)<br>
 Fix: Change those paragraph elements into h3 elements, however i have chose not to implement those changes since i have specifically styled it so that the h1 element is between the two paragraph elements as it follows the visual style i want for the page.
 
-Warning 4: "redundant link" there are two elements in the index.html file that link to the contact page,
+Warning 4: "redundant link" There are two elements in the index.html file that link to the contact page,
 this means the screen reader will read the link out twice. <br> 
 Fix: i have chose not to fix this as i specifically placed two links in two draw attention and remind the user about the contact page, as this would create a higher chance the user will follow the link.
 ![Alt-Text](docs/readme_media/contact-link.jpg)
@@ -261,7 +260,7 @@ Fix: i have chose not to fix this as i specifically placed two links in two draw
 Warning 1: "Missing 1st level heading" Same with the warning in the home page, there isnt a h1 element for the Accommodations page. <br>
 Fix: change the Accommodations h2 into a h1.
 
-Warning 2: "redundant link" there are two elements in the accommodations.html file that link to the contact page, this means the screen reader will read the link out twice. <br>
+Warning 2: "redundant link" There are two elements in the accommodations.html file that link to the contact page, this means the screen reader will read the link out twice. <br>
 Fix: i have chose not to fix this as i specifically placed two links in two draw attention and remind the user about the contact page, as this would create a higher chance the user will follow the link.
 
 ### Contact Page Accessibility Testing
@@ -331,7 +330,6 @@ Each link worked as expected opening the link onto an external tab.
   ![CSS](docs/readme_media/css-verification.jpg)
 
 ## Deployment
-
 ### Version Control
 
 Site created using Visual Studio Code IDE.
